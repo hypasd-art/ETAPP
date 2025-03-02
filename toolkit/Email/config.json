@@ -1,0 +1,107 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "send_email",
+            "description": "Sends an email.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "receiver": {
+                        "type": "string",
+                        "description": "the receiver(s) of the email."
+                    },
+                    "subject": {
+                        "type": "string",
+                        "description": "the subject of the email."
+                    },
+                    "content": {
+                        "type": "string",
+                        "description": "the content of the email."
+                    },
+                    "attachments": {
+                        "type": "string",
+                        "nullable": true,
+                        "description": "the path of the attachments."
+                    }
+                },
+                "required": [
+                    "receiver",
+                    "subject",
+                    "content"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "the status of the email."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_today_emails_until_now",
+            "description": "Retrieves today's emails until now.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status and email records for the current day until now."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_email_by_sender_and_receiver",
+            "description": "Searches for emails where the sender or receiver contains specific address.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "type": "string",
+                        "description": "Address to search for."
+                    }
+                },
+                "required": [
+                    "address"
+                ]
+            },
+            "return": {
+                "type": "array",
+                "items": {
+                    "type": "object"
+                },
+                "description": "all emails matching the subject."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_email_by_content",
+            "description": "Searches for emails by the similarity of email's content and query using BM25.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "Query to search for."
+                    }
+                },
+                "required": [
+                    "query"
+                ]
+            },
+            "return": {
+                "type": "array",
+                "items": {
+                    "type": "object"
+                },
+                "description": "List of the top 5 emails matching the query, sorted by BM25 score."
+            }
+        }
+    }
+]

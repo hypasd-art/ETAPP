@@ -1,0 +1,154 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "add_event_in_calendar",
+            "description": "Adds a new event to the calendar.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "description": "The title of the event."
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "A brief description of the event."
+                    },
+                    "start_time": {
+                        "type": "string",
+                        "description": "The start time of the event, should in the format: %Y-%m-%d %H:%M:%S, e.g. 2024-05-28 15:30:00."
+                    },
+                    "end_time": {
+                        "type": "string",
+                        "description": "The end time of the event, should in the format: %Y-%m-%d %H:%M:%S, e.g. 2024-05-28 15:30:00."
+                    },
+                    "reminder": {
+                        "type": "object",
+                        "nullable": true,
+                        "description": "The time of the event when a reminder should be set(should in the format: %Y-%m-%d %H:%M:%S, e.g. 2024-05-28 18:30:00.), or None if no reminder is needed."
+                    }
+                },
+                "required": [
+                    "title",
+                    "description",
+                    "start_time",
+                    "end_time"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "a success message indicating the event has been added or error message."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "view_today_events_in_calendar",
+            "description": "Get all today's events in the calendar.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "array",
+                "description": "A dictionary contains the status and today's event in details."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "view_events_in_calendar_by_providing_time_range",
+            "description": "Retrieves events that start within a specified time range from the calendar.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "start_time": {
+                        "type": "string",
+                        "description": "The start of the time range in 'YYYY-MM-DD' format."
+                    },
+                    "end_time": {
+                        "type": "string",
+                        "description": "The end of the time range in 'YYYY-MM-DD' format."
+                    }
+                },
+                "required": [
+                    "start_time",
+                    "end_time"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status and events that start within the provided time range."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "delete_event_in_calendar",
+            "description": "Deletes an event from the calendar by its ID.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "event_id": {
+                        "type": "integer",
+                        "description": "ID of the event to delete."
+                    }
+                },
+                "required": [
+                    "event_id"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A success message or an error message if the event is not found."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "add_alarm",
+            "description": "Adds a new alarm to the calendar.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "alarm_time": {
+                        "type": "object",
+                        "description": "The time at which the alarm should go off, should in the format: %Y-%m-%d %H:%M:%S, e.g. 2024-05-28 15:30:00.."
+                    },
+                    "message": {
+                        "type": "string",
+                        "description": "The message to display when the alarm goes off."
+                    }
+                },
+                "required": [
+                    "alarm_time",
+                    "message"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A success message or an error message if the alarm can't be add."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "view_today_alarms",
+            "description": "View the today's alarms in the calendar.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the status and today's alarm details."
+            }
+        }
+    }
+]

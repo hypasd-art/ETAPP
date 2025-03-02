@@ -1,0 +1,58 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_today_weather",
+            "description": "Retrieves the today's weather data based on location.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "location": {
+                        "type": "string",
+                        "description": "the location for retieving the weather data."
+                    }
+                },
+                "required": [
+                    "location"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status and today's weather data."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_future_weather",
+            "description": "Retrieves the location's weather for a future timestamp.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "location": {
+                        "type": "string",
+                        "description": "the location for retieving the weather data."
+                    },
+                    "start_time": {
+                        "type": "string",
+                        "description": "The start timestamp for the future weather(format: 'YYYY-MM-DD', e.g. 2024-05-28)."
+                    },
+                    "end_time": {
+                        "type": "string",
+                        "description": "The end timestamp for the future weather(format: 'YYYY-MM-DD', e.g. 2024-05-29)."
+                    }
+                },
+                "required": [
+                    "location",
+                    "start_time",
+                    "end_time"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status and the future weather data."
+            }
+        }
+    }
+]

@@ -1,0 +1,22 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Wake Up and Morning Routine,"Start the day with lemon water and stretching.",2024-09-01 06:00:00,2024-09-01 06:30:00,None
+2024090112346,Morning Jog,"Enjoy a morning jog in the local park.",2024-09-01 06:30:00,2024-09-01 07:15:00,2024-09-01 06:15:00
+2024090112350,Teaching Classes,"Teach biology and chemistry with hands-on activities.",2024-09-01 12:30:00,2024-09-01 15:00:00,None
+2024090112351,Professional Development Workshop,"Attend a workshop on integrating technology in the classroom.",2024-09-01 15:00:00,2024-09-01 16:30:00,2024-09-01 14:45:00
+2024090212345,Early Morning Cycling,"Cycling session along the Charles River to enjoy the morning air and prepare for the day.",2024-09-02 06:00:00,2024-09-02 07:00:00,2024-09-02 05:45:00
+2024090212348,Science Club Meeting,"Guide students through a renewable energy project, fostering creativity and teamwork.",2024-09-02 12:00:00,2024-09-02 13:00:00,2024-09-02 11:45:00
+2024090312345,Morning Meditation,"Start the day with a 10-minute meditation session using the Insight Timer app.",2024-09-03 06:00:00,2024-09-03 06:10:00,None
+2024090312346,Spinning Class,"Attend a spinning class at the local gym.",2024-09-03 06:30:00,2024-09-03 07:30:00,2024-09-03 06:15:00
+2024090312350,Lab Session,"Conduct a lab session with students focusing on environmental science topics.",2024-09-03 13:00:00,2024-09-03 14:30:00,2024-09-03 12:45:00
+2024090412345,Morning Jog,"Morning jog around the Boston Common.",2024-09-04 06:00:00,2024-09-04 06:45:00,None
+2024090412353,School Board Meeting,"Discuss curriculum updates and integrate more technology in lessons.",2024-09-04 15:00:00,2024-09-04 16:00:00,2024-09-04 14:45:00
+2024090412354,Volunteer at Animal Shelter,"Walk dogs and help with feeding routines.",2024-09-04 17:00:00,2024-09-04 18:30:00,None
+2024090512345,Early Morning Rowing,"Rowing session on the Charles River, focusing on breathing and technique.",2024-09-05 06:00:00,2024-09-05 07:00:00,2024-09-05 05:45:00
+2024090512349,Student Workshop,"Lead a workshop on the importance of scientific research.",2024-09-05 12:00:00,2024-09-05 13:00:00,2024-09-05 11:45:00
+2024090612345,Morning Jog,"Start the day with a refreshing morning jog along the Charles River.",2024-09-06 06:30:00,2024-09-06 07:15:00,None
+2024090612346,Pilates Class,"Attend a Pilates class focused on enhancing flexibility and core strength at the local community center.",2024-09-06 08:00:00,2024-09-06 09:00:00,2024-09-06 07:45:00
+2024090712346,Morning Jog,"Enjoy a morning jog around the neighborhood park with an indie rock playlist.",2024-09-07 06:30:00,2024-09-07 07:15:00,2024-09-07 06:15:00
+2024090712352,Teach Climate Change Class,"Engage students in discussions and activities on climate change.",2024-09-07 13:00:00,2024-09-07 14:30:00,2024-09-07 12:45:00
+2024090812345,Early Morning Kayaking,"Enjoy a kayaking session on the Charles River to start the day with tranquility.",2024-09-08 06:00:00,2024-09-08 07:00:00,2024-09-08 05:45:00
+2024090912346,Group Fitness Class,"Participate in a spinning class at the local gym.",2024-09-09 06:30:00,2024-09-09 07:30:00,2024-09-09 06:15:00
+2024090912350,Science Experiment Demonstration,"Conduct a demonstration on chemical reactions for students.",2024-09-09 13:00:00,2024-09-09 14:30:00,2024-09-09 12:45:00

@@ -1,0 +1,17 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Brisk Walking,2024-09-01 17:00:00,2024-09-01 17:30:00,30,110,125,150,Improved cardiovascular health,Consider increasing duration for better endurance,,,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Strength Training,2024-09-01 21:00:00,2024-09-01 21:30:00,30,120,140,200,Muscle strength maintained,Incorporate more variety in exercises,,,,,,,,,,,,
+Running,2024-09-02 06:30:00,2024-09-02 07:00:00,30,130,150,300,Aerobic endurance improved,Consider adding interval sprints to enhance cardiovascular fitness,6:00,150.0,Local Park Route,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+DIY Workshop,2024-09-02 17:30:00,2024-09-02 19:00:00,90,110,130,250,Improved practical skills and light physical activity,Incorporate more stretching to prevent muscle stiffness,,,,,Breathing Curve 2,Relaxation Data 2,5.0,Flexibility,,,,
+Brisk Walking,2024-09-03 20:30:00,2024-09-03 21:00:00,30,110,125,150,Improved cardiovascular health and relaxation,Consider incorporating light jogging intervals for variety,,,,,,,,,,,,
+Fishing,2024-09-04 06:00:00,2024-09-04 08:00:00,120,80,95,250,Relaxation and stress relief,Focus on mindfulness and enjoy the moment,,,,,,,,,,,,
+Strength Training,2024-09-04 19:00:00,2024-09-04 19:45:00,45,130,150,300,Muscle endurance improved,Incorporate more compound exercises,,,,,,,,,,,,
+Bodyweight Exercises,2024-09-05 06:30:00,2024-09-05 06:50:00,20,120,140,150,Strength and endurance improved,Incorporate more variety in exercises,,,,,,,,,,,,
+Brisk Walking,2024-09-05 19:00:00,2024-09-05 19:20:00,20,110,125,100,Relaxation and light cardio achieved,Consider longer walks for increased benefits,,,,,,,,,,,,
+Strength Training,2024-09-06 20:00:00,2024-09-06 20:30:00,30,120,140,200,Muscle endurance improved,Incorporate more compound exercises,,,,,,,,,,,,
+Brisk Walking,2024-09-06 21:30:00,2024-09-06 22:00:00,30,110,125,150,Cardiovascular health maintained,Consider increasing pace for more intensity,,,,,,,,,,,,
+Brisk Walking,2024-09-07 06:00:00,2024-09-07 06:30:00,30,110,125,150,Improved cardiovascular health,Consider increasing pace for better endurance,10:00,120.0,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Hiking,2024-09-07 07:00:00,2024-09-07 08:00:00,60,120,140,300,Enhanced stamina and mental clarity,Incorporate more challenging trails for strength building,,,GPS Track 2,Speed Curve 2,,,,,,5.0,4.0,200.0
+Brisk Walking,2024-09-08 06:30:00,2024-09-08 07:00:00,30,110,130,150,Cardiovascular health maintained,Consider increasing pace for more intensity,,,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Casual Sports,2024-09-08 18:00:00,2024-09-08 19:00:00,60,120,150,300,Social engagement and physical activity combined,Incorporate more structured sports for skill improvement,,,GPS Track 2,Speed Curve 2,Heart Rate Curve 2,,,,,,,
+Brisk Walking,2024-09-09 18:30:00,2024-09-09 19:00:00,30,110,125,150,Improved cardiovascular health and mental relaxation,Consider incorporating light jogging intervals for variety,,,,,,,,,,,,

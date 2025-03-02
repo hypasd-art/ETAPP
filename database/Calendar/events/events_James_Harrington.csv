@@ -1,0 +1,87 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Wake Up and Meditation,"Start the day with a glass of lemon water and a brief meditation session.",2024-09-01 06:00:00,2024-09-01 06:30:00,None
+2024090112346,Personal Training Session,"Strength training and yoga session at the local gym.",2024-09-01 06:30:00,2024-09-01 07:30:00,2024-09-01 06:00:00
+2024090112347,Breakfast Meeting with CTO,"Discuss strategies for the upcoming tech conference presentations over a Mediterranean-style breakfast.",2024-09-01 08:00:00,2024-09-01 09:00:00,2024-09-01 07:30:00
+2024090112348,Virtual Town Hall Meeting,"Engage with employees to discuss the company's vision and updates.",2024-09-01 12:00:00,2024-09-01 13:00:00,2024-09-01 11:30:00
+2024090112349,Lunch with Business Partner,"Explore collaboration opportunities over a gourmet meal.",2024-09-01 13:30:00,2024-09-01 15:00:00,2024-09-01 13:00:00
+2024090112350,Marketing Team Meeting,"Review the latest campaign performance and provide strategic input.",2024-09-01 15:00:00,2024-09-01 16:00:00,2024-09-01 14:30:00
+2024090112351,Art Gallery Opening,"Explore new pieces for personal collection and network with fellow art enthusiasts.",2024-09-01 17:30:00,2024-09-01 18:30:00,2024-09-01 17:00:00
+2024090112355,Evening Meditation,"Wind down with a short meditation session, reflecting on the day's achievements.",2024-09-01 21:30:00,2024-09-01 22:00:00,None
+
+
+
+2024090212346,Early Morning Run,"Run along the San Francisco Bay Trail, enjoying the sunrise and fresh coastal air.",2024-09-02 06:30:00,2024-09-02 07:15:00,None
+2024090212350,Review Financial Reports,"Prepare notes for the board meeting in the home office.",2024-09-02 08:45:00,2024-09-02 09:15:00,None
+2024090212352,Board Meeting,"Discuss strategic initiatives and financial performance at the office.",2024-09-02 10:00:00,2024-09-02 12:00:00,2024-09-02 09:30:00
+2024090212353,Networking Lunch,"Lunch with fellow CEOs at The Battery, discussing industry trends.",2024-09-02 12:15:00,2024-09-02 13:30:00,2024-09-02 11:45:00
+2024090212354,Marketing Team Meeting,"Review upcoming campaign strategies with the marketing team.",2024-09-02 13:45:00,2024-09-02 15:00:00,2024-09-02 13:15:00
+2024090212356,Art Gallery Visit,"Explore new pieces for the personal collection and network with artists.",2024-09-02 16:30:00,2024-09-02 17:00:00,None
+
+
+
+2024090301234,Yoga Session,"Yoga session for stress relief at a local studio, focusing on flexibility and mindfulness.",2024-09-03 06:30:00,2024-09-03 07:30:00,2024-09-03 06:00:00
+2024090305678,Breakfast Meeting,"Breakfast meeting with a mentee from a startup incubator at a chic café.",2024-09-03 08:00:00,2024-09-03 09:00:00,2024-09-03 07:30:00
+2024090303456,Strategic Planning,"Work on a strategic plan for expanding into international markets.",2024-09-03 13:00:00,2024-09-03 15:00:00,2024-09-03 12:30:00
+2024090304567,Tech Conference,"Attend a tech conference at the Moscone Center to stay updated on industry trends.",2024-09-03 15:30:00,2024-09-03 17:00:00,2024-09-03 15:00:00
+2024090308901,Grocery Shopping,"Quick stop at a luxury grocery store to pick up fresh ingredients for the evening's dinner party.",2024-09-03 17:30:00,2024-09-03 18:00:00,None
+2024090305679,Dinner Party Preparation,"Prepare for the dinner party at home, setting the table with elegant dinnerware.",2024-09-03 18:00:00,2024-09-03 19:00:00,None
+2024090306780,Dinner Party,"Host a small dinner party for close friends and family at home.",2024-09-03 19:00:00,2024-09-03 22:00:00,2024-09-03 18:30:00
+2024090308902,Nighttime Routine,"Nighttime routine, including skincare and a brief meditation session to relax before bed.",2024-09-03 22:30:00,2024-09-03 23:00:00,None
+
+
+
+2024090412346,Personal Training Session,"Cardiovascular exercises at Equinox gym, including treadmill intervals and rowing machine workouts.",2024-09-04 06:30:00,2024-09-04 07:30:00,2024-09-04 06:00:00
+2024090412347,Team Meeting,"Brainstorm innovative product ideas with the team at the office.",2024-09-04 09:00:00,2024-09-04 10:30:00,2024-09-04 08:30:00
+2024090412348,Mentoring Session,"One-on-one mentoring with a promising startup founder, providing guidance and strategic advice.",2024-09-04 11:00:00,2024-09-04 12:00:00,2024-09-04 10:30:00
+2024090412349,Lunch Meeting,"Discuss potential collaboration on a new book project with a renowned business author at The Slanted Door.",2024-09-04 12:00:00,2024-09-04 13:30:00,2024-09-04 11:30:00
+2024090412350,Marketing Strategy Review,"Review and approve marketing strategies for the upcoming quarter with the marketing team.",2024-09-04 14:00:00,2024-09-04 15:30:00,2024-09-04 13:30:00
+2024090412351,Virtual Meeting,"Discuss expansion plans and potential collaborations with international partners.",2024-09-04 16:00:00,2024-09-04 17:30:00,2024-09-04 15:30:00
+2024090412352,Networking Event,"Engage with industry leaders and exchange insights on emerging tech trends at the Ritz-Carlton.",2024-09-04 18:00:00,2024-09-04 20:00:00,2024-09-04 17:30:00
+
+
+
+2024090512345,Breakfast Meeting with CFO,"Discuss budget allocations over breakfast at The Rotunda.",2024-09-05 08:00:00,2024-09-05 09:00:00,2024-09-05 07:30:00
+2024090516789,Leadership Workshop,"Conduct a workshop on leadership and innovation for mid-level managers.",2024-09-05 12:00:00,2024-09-05 13:00:00,2024-09-05 11:30:00
+2024090523456,Lunch with Tech Journalist,"Share insights on industry trends at The Slanted Door.",2024-09-05 13:00:00,2024-09-05 14:00:00,2024-09-05 12:30:00
+2024090534567,Visit Apple Store,"Explore the latest tech gadgets and smart home devices.",2024-09-05 14:00:00,2024-09-05 15:00:00,None
+2024090545678,Strategy Session with Marketing Team,"Focus on enhancing brand presence and aligning marketing efforts.",2024-09-05 15:30:00,2024-09-05 17:00:00,2024-09-05 15:00:00
+2024090556789,Classical Music Concert,"Attend a concert at the San Francisco Symphony with family.",2024-09-05 18:00:00,2024-09-05 19:30:00,2024-09-05 17:30:00
+
+
+
+2024090612346,Family Hiking,"Easy hiking with family at Lands End Trail, enjoying scenic views.",2024-09-06 07:00:00,2024-09-06 08:30:00,None
+2024090612348,Strategy Session,"Strategy session with the marketing team at Tech Innovations Inc.",2024-09-06 12:00:00,2024-09-06 13:00:00,2024-09-06 11:30:00
+2024090612349,Lunch Meeting,"Lunch at 'The Progress' to explore new flavors and discuss collaborations.",2024-09-06 13:00:00,2024-09-06 14:30:00,None
+2024090612350,Art Gallery Visit,"Visit a nearby art gallery to view the latest exhibition.",2024-09-06 14:30:00,2024-09-06 15:00:00,None
+2024090612351,Department Meetings,"One-on-one meetings with department heads to review projects.",2024-09-06 15:00:00,2024-09-06 17:00:00,2024-09-06 14:30:00
+2024090612352,Wine Tasting Event,"Attend a wine tasting event at 'The Barrel Room' with colleagues.",2024-09-06 18:00:00,2024-09-06 19:30:00,2024-09-06 17:30:00
+2024090612353,Watch Boutique Visit,"Browse the latest Rolex collection at a local luxury watch boutique.",2024-09-06 19:30:00,2024-09-06 20:00:00,None
+2024090612354,Movie Night,"Watch 'The Social Network' with family.",2024-09-06 20:00:00,2024-09-06 21:30:00,None
+
+
+
+2024090712345,Breakfast Meeting,"Breakfast meeting with a potential investor at The Rotunda, discussing future opportunities.",2024-09-07 08:00:00,2024-09-07 09:00:00,2024-09-07 07:30:00
+2024090716789,Tech Conference Panel,"Host a panel discussion at the tech conference on innovation and leadership.",2024-09-07 10:00:00,2024-09-07 12:00:00,2024-09-07 09:30:00
+2024090713456,Lunch with Mentor,"Lunch with a mentor at Greens Restaurant, discussing personal development.",2024-09-07 12:30:00,2024-09-07 13:30:00,2024-09-07 12:00:00
+2024090717890,Tech Conference Sessions,"Attend sessions focusing on emerging technologies and networking.",2024-09-07 14:00:00,2024-09-07 16:00:00,None
+
+
+
+2024090812346,Personal Training Session,"Focus on free weight training and cardiovascular exercises at the upscale gym.",2024-09-08 06:30:00,2024-09-08 07:30:00,2024-09-08 06:00:00
+2024090812349,Quarterly Report Review,"Review and finalize the quarterly report for stakeholders in the office.",2024-09-08 09:00:00,2024-09-08 10:30:00,2024-09-08 08:30:00
+2024090812350,Lunch with Client,"Discuss ongoing projects and explore new collaboration opportunities at a Michelin-star restaurant.",2024-09-08 12:00:00,2024-09-08 13:30:00,2024-09-08 11:30:00
+2024090812352,Emerging Technologies Workshop,"Attend a workshop on emerging technologies at a tech hub.",2024-09-08 14:00:00,2024-09-08 16:00:00,2024-09-08 13:30:00
+2024090812353,Review Workshop Notes,"Review notes from the workshop and brainstorm ideas with the innovation team.",2024-09-08 16:00:00,2024-09-08 16:30:00,None
+
+
+
+
+
+2024090912350,Leadership Seminar,"Conduct a leadership seminar for aspiring entrepreneurs at a local co-working space.",2024-09-09 12:00:00,2024-09-09 13:00:00,2024-09-09 11:30:00
+2024090912351,Lunch Meeting,"Lunch with a cultural ambassador at a renowned organic café.",2024-09-09 13:00:00,2024-09-09 14:00:00,None
+2024090912352,COO Meeting,"Brief meeting with the COO to align on operational goals and upcoming projects.",2024-09-09 14:00:00,2024-09-09 15:00:00,2024-09-09 13:30:00
+2024090912353,Strategic Planning,"Focused work session to finalize the strategic plan for the next quarter.",2024-09-09 15:00:00,2024-09-09 16:30:00,None
+2024090912354,Yacht Sailing Event,"Head to the marina for a yacht sailing event with industry peers.",2024-09-09 17:30:00,2024-09-09 18:00:00,None
+2024090912355,Networking on Yacht,"Engage in networking and discussions on emerging tech trends while sailing.",2024-09-09 18:00:00,2024-09-09 20:00:00,None
+
+

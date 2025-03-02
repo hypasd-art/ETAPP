@@ -1,0 +1,18 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Morning Yoga Session,"Begin the day with a 30-minute yoga session at home, focusing on energizing poses and mindfulness.",2024-09-01 07:00:00,2024-09-01 07:30:00,None
+2024090123456,Virtual Workshop,"Attend a virtual workshop on the latest social media trends and strategies.",2024-09-01 12:00:00,2024-09-01 13:00:00,2024-09-01 11:45:00
+2024090145678,Dinner at Mediterraneo,"Enjoy vegan tapas with friends at Mediterraneo, discussing travel plans and creative projects.",2024-09-01 18:00:00,2024-09-01 19:30:00,2024-09-01 17:45:00
+2024090212345,Yoga Session,"Start the day with a 30-minute yoga session at home.",2024-09-02 06:00:00,2024-09-02 06:30:00,None
+2024090212348,Photoshoot Collaboration,"Collaborate with a local sustainable fashion brand for a photoshoot.",2024-09-02 13:30:00,2024-09-02 15:30:00,2024-09-02 13:15:00
+2024090312345,Pilates Class,"Attend a 45-minute Pilates class focusing on core strength and flexibility.",2024-09-03 06:30:00,2024-09-03 07:15:00,2024-09-03 06:15:00
+2024090323456,YouTube Vlog Recording,"Record a behind-the-scenes vlog for YouTube, capturing a day in the life of a social media blogger.",2024-09-03 12:00:00,2024-09-03 13:00:00,2024-09-03 11:45:00
+2024090412345,HIIT Workout Session,"Start the day with a quick HIIT workout session at home, focusing on cardio and strength exercises.",2024-09-04 06:30:00,2024-09-04 07:00:00,None
+2024090416789,Yoga Session,"Cool down with a short yoga session, emphasizing deep breathing and mindfulness.",2024-09-04 07:00:00,2024-09-04 07:30:00,None
+2024090434567,Content Research,"Research and brainstorm ideas for upcoming travel content at a co-working space.",2024-09-04 11:00:00,2024-09-04 12:30:00,None
+2024090516789,Meditation Practice,"Short meditation practice under a favorite tree in the park, centering thoughts and setting intentions for the day.",2024-09-05 07:15:00,2024-09-05 07:30:00,None
+2024090534567,Pop-up Fashion Event,"Attend a pop-up fashion event at The Grove, network with designers and fellow influencers.",2024-09-05 12:00:00,2024-09-05 13:30:00,2024-09-05 11:45:00
+2024090612348,Virtual Seminar on Digital Marketing,"Attend a virtual seminar on digital marketing strategies.",2024-09-06 14:00:00,2024-09-06 15:30:00,2024-09-06 13:45:00
+2024090716789,Morning Pilates Class,"Attend an early morning Pilates class at a local studio in West Hollywood.",2024-09-07 07:00:00,2024-09-07 08:00:00,2024-09-07 06:45:00
+2024090734567,Photo Session at Park,"Capture morning light photos for Instagram and engage with followers.",2024-09-07 09:30:00,2024-09-07 10:00:00,None
+2024090812345,Morning Yoga Session,"Begin the day with a calming yoga session at home, focusing on mindfulness and relaxation.",2024-09-08 07:00:00,2024-09-08 07:30:00,None
+2024090912347,Brunch with Influencers,"Discuss industry trends and potential collaborations at a trendy vegan café.",2024-09-09 10:00:00,2024-09-09 11:30:00,2024-09-09 09:45:00

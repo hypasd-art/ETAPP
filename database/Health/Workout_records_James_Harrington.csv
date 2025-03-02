@@ -1,0 +1,8 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Running,2024-09-02 06:30:00,2024-09-02 07:15:00,45,140,165,400,Aerobic endurance improved,Increase interval training to boost speed,6:45,158.0,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Yoga,2024-09-02 07:15:00,2024-09-02 07:45:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,12,85%,15,Flexibility,,,,
+Cardio,2024-09-04 06:30:00,2024-09-04 07:30:00,60,140,160,500,Cardiovascular endurance improved,Incorporate more interval training,,,,,,,,,,,,
+Yoga,2024-09-04 21:00:00,2024-09-04 21:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,12,80%,8,Flexibility,,,,
+Running,2024-09-05 06:30:00,2024-09-05 07:15:00,45,140,165,400,Aerobic endurance improved,Increase interval training to boost speed,6:45,158.0,GPS Track Golden Gate Park,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Yoga,2024-09-05 09:00:00,2024-09-05 09:20:00,20,95,110,80,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,8,Mindfulness,,,,
+Cycling,2024-09-07 06:30:00,2024-09-07 07:30:00,60,130,150,450,Cardiovascular endurance improved,Incorporate interval sprints for speed enhancement,,,,,Urban Cycling Route,Speed Curve 1,Heart Rate Curve 1,,,15.0,15.0,100.0

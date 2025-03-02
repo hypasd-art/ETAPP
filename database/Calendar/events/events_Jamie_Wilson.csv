@@ -1,0 +1,18 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Yoga Session,"Start the day with a yoga session at home, focusing on flexibility and mindfulness.",2024-09-01 07:00:00,2024-09-01 07:30:00,None
+2024090112348,Machine Learning Lecture,"Attend a computer science lecture on machine learning algorithms.",2024-09-01 08:45:00,2024-09-01 10:00:00,2024-09-01 08:30:00
+2024090112350,Group Project Collaboration,"Collaborate with classmates on a group project for a tech startup course.",2024-09-01 13:15:00,2024-09-01 15:00:00,2024-09-01 13:00:00
+2024090212348,Business Seminar,"Attend a business administration seminar on entrepreneurship and innovation at college.",2024-09-02 09:30:00,2024-09-02 11:00:00,2024-09-02 09:15:00
+2024090212349,Coding Workshop,"Participate in a coding workshop organized by the college tech club.",2024-09-02 12:00:00,2024-09-02 14:00:00,2024-09-02 11:45:00
+2024090303456,Spanish Language Class,"Attend the Spanish language class at a local community center, engaging in conversation practice.",2024-09-03 09:00:00,2024-09-03 10:30:00,2024-09-03 08:45:00
+2024090306789,Coding Project,"Work on a personal coding project, focusing on implementing new features and debugging.",2024-09-03 13:00:00,2024-09-03 15:00:00,None
+2024090309012,Evening Yoga Class,"Join a yoga class at a local studio, focusing on relaxation and flexibility.",2024-09-03 17:00:00,2024-09-03 18:00:00,2024-09-03 16:45:00
+2024090412348,Data Structures Lecture,"Attend a lecture on data structures and algorithms.",2024-09-04 09:00:00,2024-09-04 10:30:00,2024-09-04 08:45:00
+2024090412352,Virtual Networking Event,"Participate in a virtual networking event with tech enthusiasts.",2024-09-04 14:00:00,2024-09-04 15:30:00,2024-09-04 13:45:00
+2024090512347,Business Strategy Workshop,"Participate in the business strategy workshop at the college.",2024-09-05 08:30:00,2024-09-05 12:00:00,2024-09-05 08:15:00
+2024090512349,Study Group Session,"Collaborate with a study group in the campus library for an upcoming computer science exam.",2024-09-05 13:00:00,2024-09-05 15:00:00,2024-09-05 12:45:00
+2024090612349,Guest Lecture,"Attend a guest lecture by a successful entrepreneur at the college auditorium.",2024-09-06 10:00:00,2024-09-06 11:30:00,2024-09-06 09:45:00
+2024090716789,Hackathon Participation,"Participate in a coding hackathon at a local tech hub, collaborating with peers.",2024-09-07 09:00:00,2024-09-07 12:00:00,2024-09-07 08:45:00
+2024090723456,Tech Seminar,"Attend a seminar on emerging tech trends, taking detailed notes for future projects.",2024-09-07 13:00:00,2024-09-07 14:30:00,2024-09-07 12:45:00
+2024090816789,Digital Marketing Workshop,"Attend the workshop on digital marketing strategies for startups at a local co-working space.",2024-09-08 09:00:00,2024-09-08 11:00:00,2024-09-08 08:45:00
+2024090912346,Software Engineering Lecture,"Attend a lecture on software engineering principles, actively participating in discussions.",2024-09-09 09:00:00,2024-09-09 10:30:00,2024-09-09 08:45:00

@@ -1,0 +1,1065 @@
+[
+    {
+        "timestamp": "2024-09-06 07:00:00",
+        "query": "Play some music I like.",
+        "keypoint for personal": [
+            "Consider user's preferred genre or artists for music ('MusicPreferences') when using 'get_music_list_in_favorites'.",
+            "Consider user's usual music preferences and listening habits ('ListeningHabits') based on the time of day.",
+            "Consider user's preferred volume level ('PreferredVolumeLevel') for music when using 'play_music'."
+        ],
+        "keypoint for proactive": [
+            "Provide other music suggestions besides the music you recommend and play.",
+            "Ask if user prefers a new recommendation of different music category",
+            "Consider the time of the day when you recommend music and determine volume."
+        ],
+        "available_tools_name": [
+            "play_music",
+            "get_music_list_in_favorites"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 07:15:00",
+        "query": "What's the weather like today?",
+        "keypoint for personal": [
+            "Consider user's location to check for local weather using 'get_today_weather' (e.g., New York)."
+        ],
+        "keypoint for proactive": [
+            "Consider suggesting what to wear based on the weather, such as recommending layers if it's cooler.",
+            "Check if the user has outdoor plans in their calendar or daily schedule using 'view_today_events_in_calendar' and 'view_today_alarms' and recommend adjustments if necessary.",
+            "Offer additional advice, such as recommending layers for fluctuating temperatures, sunscreen for sunny weather or suggest bringing an umbrella if there's a chance of rain if the user has outdoor plans.",
+            "Ask if the user wants a detailed forecast (e.g., hourly, or for specific activities), weather updates for the next few days or suggestions for rescheduling weather-dependent activities."
+        ],
+        "available_tools_name":[
+            "get_today_weather",
+            "view_today_events_in_calendar",
+            "view_today_alarms"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 08:30:00",
+        "query": "What is my planning workout today. And provide some suggestion about a workout for today.",
+        "keypoint for personal": [
+            "Use 'view_today_events_in_calendar' to check the possible activity about workout if exists.",
+            "Consider user's preferred workout type ('WorkoutPreferences') (e.g., yoga, strength training, cardio, or flexibility exercises).",
+            "Consider the user's current health and mood status using 'get_current_health_and_mood_status' (e.g., suggest light exercises if the user is tired or low on energy).",
+            "Refer to the user's recent workout records using 'get_user_recent_workout_records' to ensure a balanced routine and avoid repetitive exercises",
+            "Consider user's physical goals or focus areas ('WellnessPriorities') (e.g., weight loss, strength, endurance)."
+        ],
+        "keypoint for proactive": [
+            "Check the user's schedule using 'view_today_events_in_calendar' and 'view_today_alarms' to recommend a workout that fits within available time slots and doesn't interfere with planned activities. Consider suggesting a short workout if the user has a busy schedule, or include options for breaks within the routine.",
+            "Ask if an alarm reminder needs to be set",
+            "Suggest variations or alternatives if the user has limited time or energy (e.g., a short home-based routine vs. a full gym session).",
+            "Offer tips to enhance the workout, such as appropriate warm-ups, post-workout stretches, or hydration reminders based on the activity, based on the workout intensity.",
+            "Ask if the user wants to explore a new type of workout for variety or challenge (e.g., trying a Pilates session if they've been focused on strength training)."
+        ],
+        "available_tools_name": [
+            "get_current_health_and_mood_status",
+            "view_today_events_in_calendar",
+            "view_today_alarms",
+            "get_user_recent_workout_records"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 11:30:00",
+        "query": "Please provide restaurant suggestions for lunch.",
+        "keypoint for personal": [
+            "Use 'find_restaurants' to prioritize cuisines or user's dietary preferences ('RestaurantPreferences' and 'CuisinePreferences') (e.g., vegetarian, seafood, specific restrictions like gluten-free or low-carb).",
+            "Consider user's usual lunchtime habits and previous meal choices (e.g., quick meal, cooking at home, or ordering takeout).",
+            "Take into account user's occupation and infer the income level ('BudgetRange') for inferring budget-friendly or premium restaurant suggestions."
+        ],
+        "keypoint for proactive": [
+            "Check 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to recommend restaurants that match the user's current mood or energy levels, and the user's calorie tracking goals ('WellnessPriorities') (e.g., a cozy place for relaxation or a vibrant spot for uplifting energy).",
+            "Use 'view_today_events_in_calendar' to ensure restaurant options fit with the user's schedule, suggesting locations near upcoming appointments or workspaces.",
+            "Refer to 'view_today_alarms' to ensure the timing aligns with planned activities (e.g., a quick-service and easy lunch option if the user has limited time).",
+            "Offer additional tips, such as reserving a table during peak hours or highlighting nearby attractions for a post-lunch activity.",
+            "Ask if the user is open to exploring new cuisines or trying a highly rated spot for variety.",
+            "Ask the user if they want a healthy option, a comfort food choice, or something new for exploring new cuisines or trying a highly rated spot for variety."
+        ],
+        "available_tools_name":[
+            "find_restaurants",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "view_today_events_in_calendar",
+            "view_today_alarms"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-09 19:45:00",
+        "query": "I'm planning my travel to Philadelphia for 2 days from tomorrow, search information and provide suggestions. It's better to have tonight's flight.",
+        "keypoint for personal": [
+            "Use 'find_restaurants' to suggest dining options that align with the user's dietary preferences or food allergies ('RestaurantPreferences') (e.g., vegetarian with occasional seafood) and favorite cuisines.",
+            "Use 'find_accommodations' to prioritize hotels or stays that match the user's preferences ('AccommodationPreferences') for comfort, ambiance, budget based on user's occupation and income level (e.g., mid-range, luxury, budget-friendly), or location (e.g., near major attractions or quiet neighborhoods).",
+            "Use 'find_attractions' to recommend activities or locations based on the user's interests or preferred activities ('AttractionPreferences') (e.g., historical sites, indie art galleries, literary landmarks).",
+            "Consider weather information from 'get_future_weather' to suggest outdoor or indoor plans.",
+            "Tailor recommendations to maximize satisfaction within the 2-day duration (e.g., avoiding overly packed itineraries).",
+            "Recommend convenient transportation options using 'find_flight' to book travel to and from Philadelphia, especially consider the flight tonight.",
+            "Recommend the user basic plan for a trip"
+        ],
+        "keypoint for proactive": [
+            "Check 'view_events_in_calendar_by_providing_time_range' to ensure the trip does not conflict with any existing plans and suggest travel times that align with free slots.",
+            "Consider the weather forecast to suggest activities, appropriate clothing, or potential changes using 'get_future_weather' (e.g., indoor attractions if it's raining, outdoor activities if sunny).",
+            "Ask for user's preferred travel style (e.g., relaxed, busy schedule, specific areas they prefer to explore).", 
+            "Ask the user if they want to book specific tickets in advance (e.g., museums, Broadway shows)."
+        ],
+        "available_tools_name":[
+            "find_restaurants",
+            "find_accommodations",
+            "find_attractions",
+            "find_flight",
+            "get_future_weather",
+            "view_events_in_calendar_by_providing_time_range"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 19:00:00",
+        "query": "Are there any parks or similar places in this city where I can go for a walk tonight if time possible?",
+        "keypoint for personal": [
+            "Use 'find_attractions' to identify nearby parks or natural spaces suitable for a walk, prioritizing those that align with the user's preferences (e.g., quiet areas, scenic views, or places with walking trails).",
+            "Take into account the user's past preferences for outdoor activities or specific types of parks ('AttractionPreferences') (e.g., botanical gardens or riverside paths) and user's preferred activities (sightseeing, shopping, food, museums, nature).",
+            "Suggest options that are conveniently located based on the user's current or usual location."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_today_weather' to confirm if the weather is favorable for an outdoor walk and suggest appropriate times based on conditions (e.g., avoiding peak heat or rain).",
+            "Check 'view_today_events_in_calendar' to ensure the user has free time for a walk and recommend a park nearby if they have appointments or activities planned.",
+            "Provide additional tips, such as carrying water, wearing comfortable shoes, or taking an umbrella if the weather forecast is uncertain.",
+            "Offer alternative suggestions (e.g., indoor walking spaces or nearby greenhouses) if the weather is unsuitable for outdoor activities.",
+            "Ask the user if they are interested in specific features like picnic spots, jogging tracks, or pet-friendly parks for a tailored recommendation",
+            "Use 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to ensure the user is in good health.",
+            "Consider user's recent workouts by using 'get_user_recent_workout_records' to provide some walking suggestions."
+        ],
+        "available_tools_name":[
+            "find_attractions",
+            "get_today_weather",
+            "view_today_events_in_calendar",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "get_user_recent_workout_records"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 17:45:00",
+        "query": "Help me boil hot water, and I need to take a shower after I get home.",
+        "keypoint for personal": [
+            "Use 'boil_water_in_home' to prepare hot water before the user arrives, ensuring it,s ready and matches their usual prefered desired temperature ('WaterBoilingPreferences').",
+            "Use 'control_bathtub_in_home' to prepare preferred showering water temperature and bath settings for user ('BathtubPreferences')."
+        ],
+        "keypoint for proactive": [
+            "Ask the user if they need to control other smart appliances such as curtains, lighting, and air conditioning according to their daily preferences",
+            "Obtain the current home environment situation and inform the user using 'get_home_temperature_and_humidity'. If the current home conditions might affect their comfort after the shower (e.g., too cold or humid) and suggest adjustments.",
+            "Suggest entertainment options (e.g., music, videos) that the user typically enjoys after a shower."
+        ],
+        "available_tools_name":[
+            "boil_water_in_home",
+            "control_bathtub_in_home",
+            "get_home_temperature_and_humidity",
+            "boil_water_in_home",
+            "control_light_in_home",
+            "get_music_list_in_favorites"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-06 18:45:00",
+        "query": "Any new mails until now?",
+        "keypoint for personal": [
+            "Use 'get_today_emails_until_now' to provide a summary of new emails received today, prioritizing those from known contacts or topics of interest."
+        ],
+        "keypoint for proactive": [
+            "Organize emails by priority (e.g., urgent work emails, personal emails) to help the user manage their responses efficiently.",
+            "Consider summarizing important emails (e.g., work, personal, newsletters) and any emails that require immediate action.",
+            "Check for any emails from specific people or categories (e.g., urgent emails from a boss or client).",
+            "Offer to classify emails and information according to different types.",
+            "Ask if the user would like assistance replying to any of the new emails (e.g., drafting a response for work-related emails)."
+        ],
+        "available_tools_name":[
+            "get_today_emails_until_now"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 17:45:00",
+        "query": "Turn on the air conditioning and lights in home.",
+        "keypoint for personal": [
+            "Use 'control_light_in_home' to turn on the lights, ensuring the brightness and ambiance match the user's preferences ('LightingPreferences') (e.g., warm lighting for relaxation or bright lighting for focus).",
+            "Use 'set_temperature_and_humidity_in_home' to activate the air conditioning, setting the temperature and humidity to the user's preferred levels for comfort ('TemperatureAndHumidityPreferences')."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_home_temperature_and_humidity' to check the current conditions before setting the air conditioning, ensuring it adjusts efficiently to reach the user's desired comfort level."
+        ],
+        "available_tools_name":[
+            "get_home_temperature_and_humidity",
+            "control_light_in_home",
+            "set_temperature_and_humidity_in_home"
+        ],
+        "location": "Office"
+    },   
+    {
+        "timestamp": "2024-09-08 7:45:00",
+        "query": "What is the schedule for today?",
+        "keypoint for personal": [
+            "Check the user's calendar or reminders for any scheduled events or tasks for today using 'view_today_events_in_calendar'.",
+            "Review any alarms set for the day using 'view_today_alarms', ensuring alignment with planned activities",
+            "Offer the user a detailed breakdown of the day, such as meeting times, tasks, and breaks."
+        ],
+        "keypoint for proactive": [
+            "Cross-check 'get_today_emails_until_now' and to identify notifications or messages that might be related to today's schedule, such as event confirmations or last-minute changes.",
+            "Provide additional suggestions to users based on today's plan, such as recommending time slots for relaxation, exercise, or meal planning.",
+            "Suggest preparing for scheduled tasks, such as gathering materials or setting reminders for important deadlines."
+        ],
+        "available_tools_name":[
+            "view_today_events_in_calendar",
+            "view_today_alarms",
+            "get_today_emails_until_now"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 12:30:00",
+        "query": "Set a reminder to take a break for no more than 1 hours, How long is it best for me to rest.",
+        "keypoint for personal": [
+            "Use 'view_today_events_in_calendar' and 'view_today_alarms' to check if the break time conflicts with schedule.",
+            "Consider the user's workload and energy level using 'get_current_health_and_mood_status' (e.g., set a reminder after an intense task or meeting) and provide suggestions on rest time.",
+            "Use 'add_alarm' to set a reminder for the break, ensuring it aligns with the user's request for a non-exceed 1-hour duration."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_current_health_and_mood_status' to assess if the user's current energy or stress levels suggest a need for a more relaxing or engaging break activity.",
+            "Provide tips for quick and effective breaks (e.g., stretching exercises, hydration reminder)."
+        ],
+        "available_tools_name": [
+            "view_today_alarms",
+            "view_today_events_in_calendar",
+            "add_alarm",
+            "get_current_health_and_mood_status"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-06 16:30:00",
+        "query": "Cancel all the schedules for today, and remember to notify Alice for dinner tonight in my home, the address is Alice@email.com.",
+        "keypoint for personal": [
+            "Use 'view_today_events_in_calendar' to retrieve and review all scheduled events to ensure the user is aware of what will be canceled, especially critical and important appointments.",
+            "Use 'delete_event_in_calendar' to remove all events for today, confirming with the user for the critical or recurring appointments.",
+            "Use 'send_email' to notify Alice about dinner tonight, and the location is in user's home,s ensuring the message is polite, clear, and matches the user's usual tone ('WritingStyle')."
+        ],
+        "keypoint for proactive": [
+            "If any canceled events involve other people (e.g., meetings or calls), suggest notifying them politely about the cancellations to maintain professionalism and clarity.",
+            "Suggest adding a calendar note for Alice's dinner reminder to avoid overlaps with other tasks later in the evening.",
+            "If Alice has dietary preferences or prior communication about dinner, recommend confirming the menu or sharing any necessary details."
+        ],
+        "available_tools_name": [
+            "view_today_events_in_calendar",
+            "delete_event_in_calendar",
+            "send_email"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-06 18:30:00",
+        "query": "I want to have a dinner with Alice tomorrow evening, notify her with email address Alice@email.com, Is there anything else I need to attend to? If possible, could you please help me check if it can be arranged before tomorrow evening.",
+        "keypoint for personal": [
+            "Use 'send_email' to notify Alice about booking a hotel for tomorrow, ensuring the message is polite, clear, and matches the user's usual tone ('WritingStyle').",
+            "Use 'view_events_in_calendar_by_providing_time_range' to check today and tomorrow's schedule to avoid potential overlaps with other commitments, suggest rescheduling the conflicting activities to a previous time.",
+            "If there is a conflict, consider scheduling the activities during that time to a previous time and provide users with a solution",
+            "Proactively provide a proposed rescheduled time for any overlapping events to help the user make an informed decision."
+        ],
+        "keypoint for proactive": [
+            "Suggest adding a calendar note for Alice's dinner reminder to avoid overlaps with other tasks later in the evening.",
+            "If Alice has dietary preferences or prior communication about dinner, recommend confirming the menu or sharing any necessary details."
+        ],
+        "available_tools_name": [
+            "send_email",
+            "view_events_in_calendar_by_providing_time_range"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-06 08:30:00",
+        "query": "Take a look at my shopping cart and recommend some cost-effective alternatives for this type of product",
+        "keypoint for personal": [
+            "Use 'view_cart_in_shopping_manager' to check the user's current shopping cart and provide cost-effective alternatives for similar products.",
+            "Use 'search_products_in_shopping_manager' to search and recommend relevant products that users may need"
+        ],
+        "keypoint for proactive": [
+            "Recommend other products inferred by user's cart."
+        ],
+        "available_tools_name": [
+            "view_cart_in_shopping_manager",
+            "search_products_in_shopping_manager"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 09:30:00",
+        "query": "Any news today?",
+        "keypoint for personal": [
+            "Use 'search_news_by_category' to find news that aligns with the user's interests ('NewsAndBookmarkPreferences'), such as technology, AI, politics, entertainment, business or other known preferences.",
+            "Use 'search_heat_news' to identify trending, important news happened today or highly discussed topics that the user might find engaging or relevant."
+        ],
+        "keypoint for proactive": [
+            "Suggest additional categories or trending topics that might be of interest, even if not explicitly requested.",
+            "Provide a brief news summary or highlight major events that might be relevant to the user.",
+            "Ask the user if they'd like detailed information on a specific topic or event."
+        ],
+        "available_tools_name":[
+            "search_news_by_category",
+            "search_heat_news"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 09:35:00",
+        "query": "Please suggest some new pot, add what I might interested in to cart, and send me a reminder to return the one I currently have after 8:00 p.m. when I'm free.",
+        "keypoint for personal": [
+            "Consider user's appliance preferences ('ShoppingPreferences') (e.g., brand, features, type of appliance)' when suggesting new pot.",
+            "Consider user's occupation, budget or pricing constraints ('BudgetPreferences') for the new appliance when suggesting new pot.",
+            "Pick a few pot that user might be interested in based on preference and price and add them into cart using 'add_products_to_cart', show them to user in detail.",
+            "Chech the user's free time after 8pm using 'view_todays_events_in_calendar'.",
+            "Use 'add_event_in_calendar' to set a reminder to return the current, including return deadline and return instructions.",
+            "Provide the detailed information about different pot appliance using 'search_products_in_shopping_manager'."
+        ],
+        "keypoint for proactive": [
+            "Suggest possible products related to kitchenware user might interested in, like utensils or accessories, based on the user's cooking habits.."
+        ],
+        "available_tools_name": [
+            "search_products_in_shopping_manager",
+            "add_product_to_cart",
+            "view_today_events_in_calendar",
+            "add_event_in_calendar"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 18:30:00",
+        "query": "I need a new laptop. Can you find a good deal for me?",
+        "keypoint for personal": [
+            "Use 'search_products_in_shopping_manager' to find laptops that match the user's preferences ('ShoppingPreferences'), such as brand (e.g., Apple, Dell), operating system, performance specifications (e.g., RAM, processor), or design (e.g., lightweight for portability).",
+            "Any specific features needed guessed from user's occupation and preferences (e.g., battery life, portability, gaming performance, software requirements).",
+            "Consider user's budget for the laptop purchase ('BudgetPreferences')."
+        ],
+        "keypoint for proactive": [
+            "Offer to compare the laptop options based on price, reviews, and features.",
+            "Suggest other laptop-related products that the user might be interested in."
+        ],
+        "available_tools_name": [
+            "search_products_in_shopping_manager"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 18:30:00",
+        "query": "show tommrrow's plan",
+        "keypoint for personal": [
+            "Consider the current date and any upcoming events or tasks scheduled for tomorrow.",
+            "Check the weather for tomorrow using 'get_future_weather' and suggest activities based on the forecast.",
+            "Review the user's calendar for tomorrow using 'view_events_in_calendar_by_providing_time_range' and help plan their day based on existing appointments or tasks."
+        ],
+        "keypoint for proactive": [
+            "Suggest any important points or sections the user might want to include or highlight.",
+            "Offer to provide a more detailed summary or ask if the user wants specific sections to be emphasized.",
+            "Use 'get_today_emails_until_now' to check for any missed arrangements"
+        ],
+        "available_tools_name": [
+            "get_today_emails_until_now",
+            "get_future_weather",
+            "view_events_in_calendar_by_providing_time_range"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 19:30:00",
+        "query": "I'm a bit bored, check if there is undo tasks, and could you recommend something that interests me?",
+        "keypoint for personal": [
+            "Consider user's hobbies, past interests or recent favorite activities to recommend (e.g., reading, outdoor activities, watching movies, favorite genres of books, shows, or hobbies)."
+        ],
+        "keypoint for proactive": [
+            "Chech whether there is unread messages using 'get_today_email_until_now', if exists, show them to user.",
+            "Check whether there is undo task in calender or alarm for user using 'view_today_events_in_calendar' and 'view_today_alarms'. If exists, remind the user.",
+            "Chech whether there is unread messages using 'get_today_email_until_now', if exists, show them to user.",
+            "Suggest a mix of activities (e.g., entertainment, productive tasks, creative hobbies).",
+            "Ask user for any restrictions or preferences (e.g., indoor vs. outdoor, budget, time available).",
+            "Check user's current mood and health status using 'get_current_health_and_mood_status' to help recommend (e.g., relaxation, adventure, creative)."
+        ],
+        "available_tools_name": [
+            "get_current_health_and_mood_status",
+            "view_today_events_in_calendar",
+            "view_today_alarms",
+            "get_today_emails_until_now"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 18:30:00",
+        "query": "provide me some suggest on my health?",
+        "keypoint for personal": [
+            "Use 'get_current_health_and_mood_status' to gather real-time information on the user's health, such as energy levels, stress, or physical discomfort.",
+            "Use 'get_recent_health_and_mood_summary' to review patterns in the user's health and mood over recent days, allowing for more personalized advice.",
+            "Use 'get_user_recent_workout_records' to provide suggestions based on the user's recent fitness routine and activity levels.",
+            "Consider user's diet and nutrition habits (e.g., vegetarian, balanced meals, hydration levels).",
+            "Consider user's occupation",
+            "Offer lifestyle recommendations based on the user's current health status ('RecentHealthStatus' and 'RecentMoodStatus'), such as suggestions for improving sleep, hydration, or nutrition if energy levels are low."
+        ],
+        "keypoint for proactive": [
+            "Propose a personalized workout or fitness plan that aligns with the user's goals and health status.",
+            "Consider checking in on the user's emotional well-being and recommend activities that promote relaxation and happiness."
+        ],
+        "available_tools_name": [
+            "get_current_health_and_mood_status",
+            "get_recent_health_and_mood_summary",
+            "get_user_recent_workout_records"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 08:30:00",
+        "query": "Do I need to adjust my exercise plan recently?",
+        "keypoint for personal": [
+            "Consider user's exercise preferences ('WorkoutPreferences') (e.g., type of exercises like yoga, cardio, or strength training).",
+            "Consider user's physical condition or any recent injuries or discomfort (e.g., fatigue, soreness).",
+            "Check user's fitness goals ('WellnessPriorities') (e.g., weight loss, muscle gain, flexibility, etc.) and workout records, activity level using 'get_user_recent_workout_records', focusing on intensity, frequency, and any potential signs of overexertion or underactivity.",
+            "Check user's health data using 'get_current_health_and_mood_status' and 'get_recent_health_and_mood_summary' (e.g., steps, sleep quality, heart rate from wearable devices) and suggest adjustments based on recent activity levels or health data (e.g., reducing intensity if user is fatigued).",
+            "Suggest adjusting the exercise plan based on the user's current health status, such as recommending more rest if signs of fatigue or soreness are present, or increasing intensity if the user has been consistently energetic."
+        ],
+        "keypoint for proactive": [
+            "Offer variety in the exercise plan if the user has been sticking to the same routine for a long time.",
+            "Check for signs of overtraining (e.g., muscle soreness, fatigue, low energy) and suggest adjustments to prevent injury.",
+            "Ask if the user is experiencing any specific challenges (e.g., motivation, pain, time constraints) to provide further tailored support."
+        ],
+        "available_tools_name":[
+            "get_user_recent_workout_records",
+            "get_current_health_and_mood_status",
+            "get_recent_health_and_mood_summary"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 21:00:00",
+        "query": "I'm tired, change some music please, also adjust the temperature in home.",
+        "keypoint for personal": [
+            "Consider the user's current mood or energy levels when selecting music. Since the user is tired, choose calming or relaxing music that aligns with the need to unwind or recharge.",
+            "Use 'get_music_list_in_favorites' to find music that reflect user's preferred music genres for relaxation (e.g., jazz, ambient) and use 'play_music' to play it.",
+            "Adjust the music volume according to the user's preference ('PreferredVolumeLevel'), as a low or moderate volume might be more suitable for relaxation or rest.",
+            "Offer a playlist with a mix of calming music, such as nature sounds or soft instrumental pieces, to help the user unwind.",
+            "Ask if the user prefers a specific artist or album, or if they would like a new recommendation.",
+            "Adjust the room temperature based on the user's preference using 'get_home_temperature_and_humidity' and 'set_temperature_and_humidity_in_home' (e.g., cooling if it's too warm or heating if it's too cold)."
+        ],
+        "keypoint for proactive": [
+            "Consider user's current mood using 'get_current_health_and_mood_status' (e.g., tiredness, need for relaxation).",
+            "Recommend or directly switch to warmer lighting to create a calming atmosphere using 'control_light_in_home'.",
+            "Suggest relaxation techniques such as deep breathing or gentle stretches."
+        ],
+        "available_tools_name": [
+            "play_music",
+            "get_music_list_in_favorites",
+            "get_current_health_and_mood_status",
+            "set_temperature_and_humidity_in_home",
+            "get_home_temperature_and_humidity",
+            "control_light_in_home"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 17:00:00",
+        "query": "I'm coming home. Can you set the thermostat and turn on the lights in the living room? I will be home in 20 minutes.",
+        "keypoint for personal": [
+            "Set room temperature using 'set_temperature_and_humidity_in_home' considering user's preferences ('TemperatureAndHumidityPreferences') (e.g., do they prefer it cooler, warmer, or specific temperatures during different times of day).",
+            "Consider user's lighting preferences when using 'control_light_in_home' ('LightingPreferences') (e.g., light color, bright for work, dimmer for relaxation)."
+        ],
+        "keypoint for proactive": [
+            "Get the condition in home using 'get_home_temperature_and_humidity' and suggest pre-emptive changes (e.g., setting the humidity control if it's too humid in the home).",
+            "Ask if the user would like to adjust any other settings or preferences when they arrive home.",
+            "If the user typically arrives at specific times or in a certain state (e.g., after a workout, tired), offer additional suggestions for relaxation (e.g., setting up music, turning on a favorite relaxation light)."
+        ],
+        "available_tools_name": [
+            "control_light_in_home",
+            "get_home_temperature_and_humidity",
+            "set_temperature_and_humidity_in_home"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 09:00:00",
+        "query": "I'd like to take a walk in the nearby park in this weekend about 2 to 3 hours, help me arrange the time.",
+        "keypoint for personal": [
+            "Consider user's preferred time for walks (e.g., morning, afternoon, or evening).",
+            "Consider user's typical walk duration and provide some suggestions (e.g., 30 minutes, 1 hour).",
+            "Consider user's walking preferences (e.g., leisurely stroll or brisk walk).",
+            "Check user's schedule for the weekend using 'view_events_in_calendar_by_providing_time_range' (e.g., any conflicting plans or events). Suggest a time based on the user's current weekend schedule.",
+            "Consider weather conditions for the weekend using 'get_future_weather' (e.g., sunny, rainy, temperature)."
+        ],
+        "keypoint for proactive": [
+            "Consider if there exists user's any missed arrangements by using 'get_today_emails_until_now'.",
+            "Ask if the user would like a recommendation for a shop or café to relax at after the walk.",
+            "If the user enjoys certain activities during walks, suggest bringing a camera, book, or something to enjoy along the way.",
+            "Ask if the user would like to set a reminder to prepare or dress for the walk.",
+            "Use 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to ensure the user is in good health and provide some tips for walking.",
+            "Consider user's recent workouts by using 'get_user_recent_workout_records' to provide some walking suggestions."
+        ],
+        "available_tools_name": [
+            "view_events_in_calendar_by_providing_time_range",
+            "get_today_emails_until_now",
+            "get_future_weather",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "get_user_recent_workout_records"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 21:00:00",
+        "query": "Help me buy some vegetables and fruits that are commonly used at home, for approximately three people's portions.",
+        "keypoint for personal": [
+            "Consider the user's dietary preferences ('DietaryHabits') when using 'search_products_in_shopping_manager' (e.g., vegetarian, specific favorite fruits or vegetables).",
+            "Account for the quantity suitable for a single person or family, as per the user's usual consumption patterns.",
+            "Consider user's occuption and budgets for shopping ('BudgetPreferences')."
+        ],
+        "keypoint for proactive": [
+            "Consider the user's recent workout plan using 'get_user_recent_workout_records' and fitness goals ('WellnessPriorities') before searching products.",
+            "Consider the user's recent health status using 'get_recent_health_and_mood_summary' before searching products.",
+            "Check for seasonal fruits and vegetables for freshness and cost-efficiency.",
+            "Suggest storing tips or recipes to make the most out of the purchases.",
+            "In addition to considering user preferences, other healthy foods should also be considered, which are best complementary to the user's dietary habits.",
+            "Ask if the user needs any additional grocery items or specific recipe suggestions for using the purchased produce."
+        ],
+        "available_tools_name": [
+            "search_products_in_shopping_manager",
+            "get_user_recent_workout_records",
+            "get_recent_health_and_mood_summary"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 21:00:00",
+        "query": "Recommend the recent popular books.",
+        "keypoint for personal": [
+            "Tailor book recommendations to the user's known literary interests, such as contemporary fiction, literary adaptations, historical dramas, and poetry collections, when suggesting popular books.",
+            "Use 'search_from_wikipedia' to find up-to-date lists of best-selling or highly rated books, filtering for genres that match the user's preferences ('ShoppingPreferences') (e.g., literary fiction, historical novels, contemporary works, or poetry).",
+            "Use 'search_products_in_shopping_manager' to find popular books, filtering for books that match user's preferences."
+        ],
+        "keypoint for proactive": [
+            "Ask the user if they're looking for books from specific genres or if they want to explore something outside their usual preferences. Offer diverse options, including popular non-fiction if they're open to it."
+        ],
+        "available_tools_name": [
+            "search_from_wikipedia",
+            "search_products_in_shopping_manager"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 13:00:00",
+        "query": "Recommend hotel accommodations in Philadelphia?",
+        "keypoint for personal": [
+            "Use 'find_accommodations' to prioritize hotels or stays that match the user's preferences ('AccommodationPreferences') for comfort, ambiance, budget based on user's occupation and income level (e.g., mid-range, luxury, budget-friendly), or location (e.g., near major attractions or quiet neighborhoods), hotel amenities (e.g., fitness center, Wi-Fi, parking), and room types (e.g., single, suite).",
+            "Take into account the user's budget or price range ('BudgetRange'), whether they prefer budget-friendly options or more luxurious accommodations.",
+            "If the user is interested in a specific type of environment (e.g., eco-friendly hotels or boutique-style hotels), prioritize those options."
+        ],
+        "keypoint for proactive": [
+            "Consider the user's possible need for additional services, such as transportation (e.g., airport shuttle, rental cars) or dining options nearby, and offer accommodations with these services if available.",
+            "Ask if the user would like suggestions for nearby attractions or activities in Philadelphia to complement their stay and make their trip more enjoyable.",
+            "Offer to look for reviews or ratings of the recommended hotels to help the user make an informed decision."
+        ],
+        "available_tools_name": [
+            "find_accommodations"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-09 13:00:00",
+        "query": "Can you help me plan a birthday party for tomorrow? Find a B&B homestay for three to four people and recommend some dinner notes and entertainment activities, mainly focused on the barbecue, searching and adding the possible ingredients into the shopping cart.",
+        "keypoint for personal": [
+            "Use 'find_accommodations' to tailor the B&B recommendations to the user's preferences ('AccommodationPreferences') for comfort, location, and atmosphere (e.g., cozy, scenic, or boutique-style accommodations) based on past preferences or style.",
+            "Consider the size of the party (3-4 people) and any special requests the user might have for the B&B, such as additional amenities (e.g., a kitchen, pet-friendly, private outdoor space).",
+            "Recommend dinner ideas based on the user's dietary preferences (e.g., vegetarian, seafood) and any theme or cuisine ('barbecue') they might prefer for the celebration, use 'search_products_in_shopping_manager' to search relvent elements and add them to cart using 'add_product_to_cart'.",
+            "For entertainment, suggest options that fit the user's vibe—whether they enjoy games, music, a movie night, or something more interactive like a themed dinner party or outdoor activity."
+        ],
+        "keypoint for proactive": [
+            "Suggest a mix of entertainment activities—whether indoors (e.g., board games, karaoke, movie marathon) or outdoor activities (e.g., a picnic, hiking, or local sightseeing), depending on the weather and the group's interests.",
+            "Propose creative ideas for entertainment that would make the birthday celebration extra special, like setting up a photo booth or preparing a playlist for the evening.",
+            "Ask if the user wants help with party decorations or party favors, and offer recommendations from search_products_in_shopping_manager if they need items like candles, balloons, or personalized gifts."
+        ],
+        "available_tools_name": [
+            "find_accommodations",
+            "search_products_in_shopping_manager",
+            "add_product_to_cart",
+            "get_future_weather"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 13:00:00",
+        "query": "Recommend some exercise methods to relieve shoulder injuries, try not to conflict with my recent exercise plan.",
+        "keypoint for personal": [
+            "Check for relevant professional advice by searching for shoulder injury recovery methods online using 'search_from_wikipedia' to ensure the user receives the most effective and updated recommendations for their specific condition.",
+            "Consider the users recent exercise plan ('WellnessPriorities') and fitness level when suggesting methods for relieving shoulder injuries to avoid recommending conflicting activities.",
+            "Factor in the users usual routine and preferences for health management (e.g., whether they prefer quick, at-home remedies or are open to professional consultations like physiotherapy).",
+            "Suggest gentle shoulder exercises or stretches that align with their current fitness goals while ensuring they are not too strenuous on the injured area.",
+            "Use 'get_user_recent_workout_records' to review the users exercise activities and identify any exercises that might have contributed to the injury, ensuring that recommendations avoid those movements.",
+            "Use 'get_current_health_and_mood_status' and 'get_recent_health_and_mood_summary' to check the users physical condition, which might help in suggesting recovery methods that match their current energy levels and avoid overexertion." 
+        ],
+        "keypoint for proactive": [
+            "Proactively offer methods to prevent future injuries, such as proper warm-ups, post-workout stretching, and posture correction exercises.",
+            "Proactively suggest modifications to the users regular workout routine that focus on maintaining fitness without straining the shoulder.",
+            "Suggest medical treatment."
+        ],
+        "available_tools_name": [
+            "search_from_wikipedia",
+            "get_current_health_and_mood_status",
+            "get_user_recent_workout_records",
+            "get_recent_health_and_mood_summary"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 13:00:00",
+        "query": "Please help me check the recent flights to go to Philadelphia and arrive before tomorrow evening. Flight time should have as little impact as possible on the original schedule. List the conflicting arrangements in the schedule.",
+        "keypoint for personal": [
+            "Use 'find_flight' to search for flights to Philadelphia that arrive before the specified time (tomorrow evening). Filter results by the user's typical travel preferences ('FlightPreferences') and budgets ('BudgetRange'), such as airline, travel class, or layover duration if these details are known.",
+            "Use 'view_events_in_calendar_by_providing_time_range' to identify any conflicts in the user's schedule for the travel period, including departure and arrival times.",
+            "Consider suggesting flights with flexible timing to accommodate potential schedule adjustments."
+        ],
+        "keypoint for proactive": [
+            "If conflicts are found in the calendar, suggest rescheduling or canceling less critical tasks to accommodate the trip. Provide options to manage these conflicts effectively.",
+            "Recommend checking for connecting transportation or accommodations (e.g., airport to hotel transfers) to ensure a smooth arrival in Philadelphia.",
+            "Ask if the user needs additional assistance with hotel booking, dining reservations, or itinerary planning for Philadelphia to optimize their stay.",
+            "Offer to provide additional details such as airline reviews, flight punctuality, or seating preferences to help the user make a more informed decision."
+        ],
+        "available_tools_name": [
+            "find_flight",
+            "view_events_in_calendar_by_providing_time_range"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-08 07:00:00",
+        "query": "Can you update my grocery shopping list with some healthy snacks I like?",
+        "keypoint for personal": [
+            "Use 'search_products_in_shopping_manager' to search snacks considering user's dietary preferences ('DietaryHabits') (e.g., vegetarian, low-carb, high-protein snacks), focusing on healthy snacks that align with their vegetarian diet and occasional seafood consumption..",
+            "Add the snacks into the cart using add_product_to_cart.",
+            "Consider user's typical snack preferences (e.g., crunchy, sweet, savory)."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_current_health_and_mood_status' and 'get_recent_health_and_mood_summary' to identify any changes in health or mood that could suggest specific snack needs (e.g., energy-boosting or stress-reducing options).",
+            "Consider health goals ('WellnessPriorities') (e.g., weight loss, muscle gain, energy boost) and the user's recent workout habits ('WorkoutPreferences') using 'get_user_recent_workout_records' to suggest post-workout snacks that aid in recovery, such as protein bars, yogurt, or smoothies.",
+            "Suggest healthy snacks based on the user's preferences (e.g., fruit, nuts, yogurt, protein bars).",
+            "Proactively offer suggestions for meal prep or snacks to make the shopping process more efficient.",
+            "Ask if the user would like to explore new snack options or if there are specific preferences, like organic, gluten-free, or vegan snacks, to help refine the selection.",
+            "Add the selected healthy snacks to the shopping list or cart and ask if the user needs anything else for their grocery run (e.g., fruits, vegetables, or specific ingredients for recipes)."
+        ],
+        "available_tools_name": [
+            "search_products_in_shopping_manager",
+            "add_product_to_cart",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "get_user_recent_workout_records"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 18:00:00",
+        "query": "I've got tomatoes, carrots, potatoes, a bit of garlic, and some flour at home. What can I make for dinner?",
+        "keypoint for personal": [
+            "Consider the current time when providing suggestions.",
+            "Consider user's dietary preferences ('DietaryHabits') to provide suggestions (vegetarian, vegan, gluten-free, etc.).",
+            "Consider user's previous meal preferences or favorites when providing suggestions (e.g., does the user prefer quick meals, simple dishes, or more elaborate cooking?).",
+            "Provide a variety of options depending on the user's available ingredients.",
+            "Take into account the user's mood or health status ('RecentHealthStatus' and 'RecentMoodStatus'), which may influence their dinner preferences (e.g., a light meal if they're feeling low energy or something heartier if they're feeling active)."
+        ],
+        "keypoint for proactive": [
+            "Consider any ongoing food-related goals such as sports and fitness plan ('WellnessPriorities') using 'get_user_recent_workout_records' (e.g., low-carb, high-protein meals, calorie tracking).",
+            "Check the weather using 'get_today_weather' (e.g., suggesting a hearty stew on a cold day or a fresh salad for a warm day).",
+            "Check user's current hunger levels or energy using 'get_current_health_and_mood_status' (e.g., is the user looking for something filling or light?).",
+            "Use 'get_recent_health_and_mood_summary' to suggest a meal that aligns with the user's current health or energy needs, like a light soup if they need something soothing or a more filling dish if they require more sustenance."
+        ],
+        "available_tools_name": [
+            "get_current_health_and_mood_status",
+            "get_recent_health_and_mood_summary",
+            "get_user_recent_workout_records",
+            "get_today_weather"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-07 09:00:00",
+        "query": "Plan a relaxing afternoon for me in home.",
+        "keypoint for personal": [
+            "Tailor activities to the user's typical weekend relaxation preferences, consider the user's entertainment preferences, such as reading, spending time outdoors, or engaging in creative hobbies.",
+            "Consider the user's lifestyle preferences, such as whether they enjoy peaceful solo time or a mix of social interactions and relaxation.",
+            "Leverage the current mood and health status from 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to adjust the day's activities. If the user feels more energetic or needs rest, suggest appropriate activities or rest periods."
+        ],
+        "keypoint for proactive": [
+            "Recommend light snacks or meals to accompany leisure time.",
+            "Suggest a calming evening activity, like watching a literary adaptation or a jazz playlist, referencing 'search_from_wikipedia'.",
+            "Check for and resolve potential conflicts in the user's schedule using 'view_today_events_in_calendar'.",
+            "Consider some workout recommendation by using 'get_user_recent_workout_records'."
+        ],
+        "available_tools_name": [
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "get_user_recent_workout_records",
+            "search_from_wikipedia",
+            "view_today_events_in_calendar"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-07 15:00:00",
+        "query": "I need a wellness activity for the afternoon in nearby park, prepare an exciting music list suitable for this activity.",
+        "keypoint for personal": [
+            "Use 'get_music_list_in_favorites' to recommend a list of music, ensuring it aligns with the activity's relaxing nature and the user's music preferences."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_user_recent_workout_records' to tailor a wellness activity based on the user's recent physical activity, such as recommending yoga poses or light stretches that complement prior workouts.",
+            "Use 'get_recent_health_and_mood_summary' to suggest a workout that aligns with the user's current health or energy needs.",
+            "Use 'get_today_weather' to determine if the current weather is suitable for outdoor wellness activities, such as a nature walk or meditation in the garden. Suggest indoor alternatives if the weather is unfavorable.",
+            "Ask if the user need the park recommendation."
+        ],
+        "available_tools_name": [
+            "get_user_recent_workout_records",
+            "get_music_list_in_favorites",
+            "get_recent_health_and_mood_summary",
+            "get_today_weather"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-07 19:00:00",
+        "query": "Is there a suitable time for a picnic recently?",
+        "keypoint for personal": [
+            "Use 'view_events_in_calendar_by_providing_time_range' to identify free periods for scheduling a picnic."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_future_weather' to find upcoming days with favorable weather conditions for an outdoor picnic.",
+            "Use 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to assess if a picnic would be a suitable and enjoyable activity based on the user's current health status and mood.",
+            "Use 'find_attractions' to recommend picnic place."
+        ],
+        "available_tools_name": [
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "view_events_in_calendar_by_providing_time_range",
+            "get_future_weather",
+            "find_attractions"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 15:00:00",
+        "query": "Help me plan a healthy grocery shopping list. I want to make sure I have all the ingredients for my meals this week, focusing on plant-based recipes and foods that align with my health goals. I also need to ensure I'm getting enough protein.",
+        "keypoint for personal": [
+            "Use 'search_from_wikipedia' and 'search_products_in_shopping_manager' to find plant-based ingredients, such as tofu, lentils, quinoa, and chickpeas, along with other high-protein options like plant-based protein powders, nuts, and seeds.",
+            "Use 'get_user_recent_workout_records' to align suggestions with the user's fitness goals (e.g., adding more protein if muscle-building is a priority).",
+            "Cross-reference the user's 'WellnessPriorities' to ensure the list covers all essential nutrients, including vitamins, minerals, and healthy fats.",
+            "Recommend new plant-based recipes and ingredients to diversify the user's meals while keeping within dietary preferences.",
+            "Consider user's occuption and the shopping budgets ('BudgetPreferences')",
+            "Provide a complete shopping list, ensuring that these contents appear on the shopping list and the purchase volume can support one week's consumption"
+        ],
+        "keypoint for proactive": [
+            "Recommend eco-friendly or local food brands based on previous purchasing habits ('ShoppingPreferences').",
+            "Use 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to suggest some grocery products and meals that aligns with the user's current health or energy needs, for example, recommending more fruits if the user's physical condition requires it."
+        ],
+        "available_tools_name": [
+            "search_products_in_shopping_manager",
+            "get_user_recent_workout_records",
+            "search_from_wikipedia",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 20:00:00",
+        "query": "Can you recommend a restaurant that I haven't tried much before and has a different taste from mine.",
+        "keypoint for personal": [
+            "Use 'find_restaurants' to identify new dining options that the user hasn't frequently visited and has a different taste from the user. Consider the user's cuisine preferences and dietary restrictions.",
+            "Consider the user's budgets for restaurant for inferring budget-friendly or premium restaurant suggestions."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status' to suggest restaurant options that align with the user's current health or dietary preferences, such as places offering healthy or mood-lifting cuisines.",
+            "Consider using 'get_user_recent_workout_records' to recommend restaurants with menu options that support dietary needs based on recent workouts, such as protein-rich options for muscle recovery."
+        ],
+        "available_tools_name": [
+            "find_restaurants",
+            "get_user_recent_workout_records",
+            "get_current_health_and_mood_status",
+            "get_recent_health_and_mood_summary"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 14:00:00",
+        "query": "Please help me prepare for a shower and the water temperature should slightly higher than usual today, also set the temperature in home.",
+        "keypoint for personal": [
+            "Use 'control_bathtub_in_home' to prepare the shower with water slightly warmer than the default setting for the user's comfort ('BathtubPreferences').",
+            "Use 'get_home_temperature_and_humidity' to ensure the bathroom environment is comfortable and doesn't feel too cold or humid.",
+            "Use 'set_temperature_and_humidity_in_home' to adjust the ambient temperature in the home if needed."
+        ],
+        "keypoint for proactive": [
+            "Recommend adding calming elements, such as lighting adjustments or music, using 'control_light_in_home' or 'get_music_list_in_favorites', to enhance the shower experience.",
+            "Suggest preparing herbal tea afterward using 'boil_water_in_home' for post-shower relaxation.",
+            "You can recommend additional relaxing activities, like light stretching or meditation, following the shower."
+        ],
+        "available_tools_name": [
+            "control_bathtub_in_home",
+            "get_home_temperature_and_humidity",
+            "set_temperature_and_humidity_in_home",
+            "boil_water_in_home",
+            "control_light_in_home",
+            "get_music_list_in_favorites"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-09 09:00:00",
+        "query": "I need to send a email to my friend Sarah about our lunch plans today, her email address is sarah.lee@artenthusiasts.org. I'll be a bit late due to a meeting, and I also want to check if I have any new messages from her.",
+        "keypoint for personal": [
+            "Use 'send_email' to draft and send a polite and concise email to Sarah, updating her about the delay for lunch due to the meeting, and matches the user's usual tone ('WritingStyle').",
+            "Use 'search_email_by_sender_and_receiver' to check for any new messages from Sarah and inform the user if there are updates."
+        ],
+        "keypoint for proactive": [
+            "Check the user's schedule using 'view_today_events_in_calendar' and 'view_today_alarms' to ensure the there is no possible conflicting events at lunch time.",
+            "Suggest adding a reminder to adjust lunch plans or reschedule based on available time, using 'add_event_in_calendar'."
+        ],
+        "available_tools_name": [
+          "send_email",
+          "search_email_by_sender_and_receiver",
+          "add_event_in_calendar",
+          "view_today_events_in_calendar",
+          "view_today_alarms"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-09 20:00:00",
+        "query": "Recommend some music that I don't usually listen to.",
+        "keypoint for personal": [
+            "Use 'get_music_list_in_favorites' to identify the user's usual music preferences and styles, then look for music recommendations that venture into new genres or artists that the user hasn't explored much."
+        ],
+        "keypoint for proactive": [
+            "Consider suggesting music based on upcoming trends or new releases that align with genres the user might enjoy but hasn't frequently listened to.",
+            "Optionally, recommend music that correlates with current events, seasons, or activities to provide a fresh listening experience."
+        ],
+        "available_tools_name": [
+            "get_music_list_in_favorites"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-09 15:00:00",
+        "query": "I'm going on a trip to the mountains recently. Provide suggestions based on my health status.",
+        "keypoint for personal": [
+            "Use 'get_recent_health_and_mood_summary' and 'get_current_health_and_mood_status' to ensure the user is in good health and provide recommendations for any necessary preparations based on their current status (e.g., hydration, rest).",
+            "If the user's physical condition is poor, recommend canceling or postponing the trip to prioritize their well-being. If recent health records indicate potential fatigue or stress, propose light activities or reminders to rest during the trip",
+            "Based on health and general travel needs, suggest essential items such as medications, snacks, or hydration supplies for the trip."
+        ],
+        "keypoint for proactive": [
+            "Provide some suggestion on the mountain climbing gathered from wikipedia using 'search_from_wikipedia'.",
+            "Ask user whether they need a help with trip time arrangement or directly check the user's arrangements using 'view_events_in_calendar_by_providing_time_range' to recommend a time that have no conflicting with existing events appointments.",
+            "Ask the user if they need help arranging other itineraries, such as accommodation and dining."
+        ],
+        "available_tools_name": [
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "search_from_wikipedia",
+            "view_events_in_calendar_by_providing_time_range"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 18:00:00",
+        "query": "What suggestions do you have for breakfast tomorrow in home.",
+        "keypoint for personal": [
+            "Consider the user's dietary restrictions or preferences, like vegetarian or gluten-free options, when suggesting breakfast ideas."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_recent_health_and_mood_summary' or get_current_health_and_mood_status'' to tailor breakfast suggestions that match the user's current health or mood needs, such as nutritious options if the user needs energy or lighter options based on recent health data.",
+            "Use 'get_user_recent_workout_records' to recommend breakfast foods that support recent physical activities, like high-protein meals if the user has engaged in strength training.",
+            "Check 'view_events_in_calendar_by_providing_time_range' to ensure that the breakfast suggestions align with the user's schedule, proposing quick options if the user has a busy morning."
+        ],
+        "available_tools_name": [
+            "view_events_in_calendar_by_providing_time_range",
+            "get_user_recent_workout_records",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 20:00:00",
+        "query": "I'm feeling a bit tired but want to get in a light workout. Can you recommend a low-energy workout?",
+        "keypoint for personal": [
+            "Get the user's current health and mood using 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status', if they're feeling tired or low on energy, recommend a gentle workout like stretching, yoga, or flexibility exercises.",
+            "Check the users recent workouts using 'get_user_recent_workout_records' to avoid repetitive routines, and recommend workouts."
+        ],
+        "keypoint for proactive": [
+            "If the user is particularly tired or stressed, suggest some relaxing music during or after the workout using 'get_music_list_in_favorites'.",
+            "Offer a reminder to hydrate after the workout or even recommend a post-workout snack based on the users preferences ('DietaryHabits') and fitness goals ('WellnessPriorities') (e.g., light and nutritious).",
+            "After the workout, suggest a cool-down routine to help the user relax, ensuring it fits their health goals and mood.",
+            "Check the user's recent physical condition, analyze possible causes of fatigue, and provide recommendations"
+        ],
+        "available_tools_name": [
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status",
+            "get_user_recent_workout_records",
+            "get_music_list_in_favorites"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 06:45:00",
+        "query": "I'm about to start my workout. Can you set the home environment to help me focus and feel motivated and play some upbeat music. Also, check my workout schedule and suggest the best exercises based on my recent activity.",
+        "keypoint for personal": [
+            "Use 'set_temperature_and_humidity_in_home' to adjust the temperature to a comfortable workout level (22-24°C).",
+            "Use 'control_light_in_home' to set bright, energizing lighting to enhance focus.",
+            "Use 'get_music_list_in_favorites' and 'play_music' to play upbeat or fast-paced music to motivate the user during the workout.",
+            "Use 'get_user_recent_workout_records' to suggest exercises based on recent activity (e.g., strength training, yoga, cardio)."
+        ],
+        "keypoint for proactive": [
+            "If the users 'get_current_health_and_mood_status' indicates low energy, suggest a lighter, more calming workout like yoga or stretching.",
+            "Suggest or directly set an alarm for post-workout stretching or hydration to ensure the user stays on track with their recovery.",
+            "Use 'view_today_events_in_calendar' to ensure workout options fit with the user's schedule, provide some exercise suggestions based on other information and schedule, such as exercise duration."
+        ],
+        "available_tools_name": [
+            "set_temperature_and_humidity_in_home",
+            "control_light_in_home",
+            "get_music_list_in_favorites",
+            "play_music",
+            "get_user_recent_workout_records",
+            "get_current_health_and_mood_status",
+            "add_alarm",
+            "view_today_events_in_calendar"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 17:00:00",
+        "query": "We are having family dinner and a movie tonight. Can you help me prepare the home for a cozy evening? Set the temperature comfortable for dining, set warm lighting, and close the curtains before I get home. Also, recommend a movie from the genres I enjoy and add any groceries I need for dinner to the shopping cart. Start dinner within one hour.",
+        "keypoint for personal": [
+            "Use 'set_temperature_and_humidity_in_home' to adjust the temperature and humidity for dining comfort.",
+            "Use 'control_light_in_home' to set the lighting to a low degree for the movie atmosphere.",
+            "Use 'control_curtains_in_home' to adjust curtains for privacy.",
+            "Recommend a movie from the users preferred genres ('MoviesAndTVShows') (e.g., indie films, historical dramas).",
+            "Use 'search_products_in_shopping_manager' and 'add_product_to_cart' to add groceries for dinner based on user preferences ('DietaryHabits') (e.g., vegetarian or seafood ingredients)."
+        ],
+        "keypoint for proactive": [
+            "If the users 'get_current_health_and_mood_status' indicates a need for relaxation, suggest a feel-good or light-hearted movie. If the health status is normal, then this aspect does not need to be considered..",
+            "Provide richer suggestions for users' evening activities, such as some themed decorations and preparing some snacks",
+            "If the user is feeling rushed and the time is rushed for dinner preparing, suggest a quick dinner recipe or ordering takeout options."
+        ],
+        "available_tools_name": [
+            "set_temperature_and_humidity_in_home",
+            "control_light_in_home",
+            "control_curtains_in_home",
+            "search_products_in_shopping_manager",
+            "get_current_health_and_mood_status",
+            "add_product_to_cart"
+        ],
+        "location": "Office"
+    },
+    {
+        "timestamp": "2024-09-06 08:30:00",
+        "query": "Set the working environment at home? Adjust the temperature, turn on the lights in living room, and play music. Also, check my calendar to see if I have any meetings or deadlines I need to prepare for.",
+        "keypoint for personal": [
+            "Use 'set_temperature_and_humidity_in_home' to adjust the temperature based on user's preferences about temperature ('TemperatureAndHumidityPreferences') (e.g. 21~23°C) for comfort during work.",
+            "Use 'control_light_in_home' to brighten the lights than usual user's preferences ('LightingPreferences') to help the user stay alert and focused.",
+            "Use 'get_music_list_in_favorites' and 'play_music' to play instrumental or classical music to help with concentration and set the music volumn to user's preferences ('PreferredVolumeLevel').",
+            "Use 'view_today_events_in_calendar' to check for any meetings or deadlines to prepare for."
+        ],
+        "keypoint for proactive": [
+            "Consider the user's health status using 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status', suggest calming background music or short relaxation exercises to reset.",
+            "Offer to set an alarm to remind the user to take breaks or hydrate."
+        ],
+        "available_tools_name": [
+            "set_temperature_and_humidity_in_home",
+            "control_light_in_home",
+            "get_music_list_in_favorites",
+            "play_music",
+            "view_today_events_in_calendar",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 14:00:00",
+        "query": "I'm thinking about going away for the weekend nearby. No need to book a hotel as I plan to be back before night. Recommend a couple of destinations I might enjoy and give me a basic plan.",
+        "keypoint for personal": [
+            "Use 'find_attractions' to suggest destinations based on the users interests ('FavoriteTravelPlace'), for example, historical sites, art galleries, or nature getaways."
+        ],
+        "keypoint for proactive": [
+            "Use 'get_future_weather' to check the weather for the weekend to help determine whether the trip will be outdoor or indoor-based.",
+            "Use 'view_events_in_calendar_by_providing_time_range' to ensure no conflicting events in the users schedule.",
+            "If the user has a busy week, suggest a more relaxing destination with minimal activityyiyi."
+        ],
+        "available_tools_name": [
+            "get_future_weather",
+            "view_events_in_calendar_by_providing_time_range",
+            "find_attractions"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 21:00:00",
+        "query": "I'm preparing to wind down for bed. Create a peaceful environment with music. Also, check my calendar for any events tomorrow and remind me important things.",
+        "keypoint for personal": [
+            "Use 'set_temperature_and_humidity_in_home' to adjust the temperature and humidity based on user's preferences ('TemperatureAndHumidityPreferences') to a comfortable range (20-22°C) for sleep.",
+            "Use 'control_light_in_home' to dim the lights for a relaxing atmosphere.",
+            "Use 'get_music_list_in_favorites' and 'play_music' to play calming or ambient music to help with sleep or meditation",
+            "The music volume should be lower.",
+            "Use 'view_events_in_calendar_by_providing_time_range' to check for and remind the user with important things."
+        ],
+        "keypoint for proactive": [
+            "Consider the user's health status using 'get_recent_health_and_mood_summary' or 'get_current_health_and_mood_status', you can suggest a guided meditation or deep breathing exercises before sleep.",
+            "Offer to remind the user to hydrate before bed or set a bedtime routine."
+        ],
+        "available_tools_name": [
+            "set_temperature_and_humidity_in_home",
+            "control_light_in_home",
+            "get_music_list_in_favorites",
+            "play_music",
+            "view_events_in_calendar_by_providing_time_range",
+            "get_recent_health_and_mood_summary",
+            "get_current_health_and_mood_status"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-08 09:30:00",
+        "query": "I have a speech presentation later today. Can you help me prepare? check my email for any updates related to the presentation. Also, add an alarm 30 minutes before the meeting.",
+        "keypoint for personal": [
+            "Search the email for any updates or files related to the presentation using 'search_email_by_content'.",
+            "Set an alarm 30 minutes before the presentation to start preparing using 'add_alarm'."
+        ],
+        "keypoint for proactive": [
+            "If the email search indicates no recent updates or attachments, suggest checking with a colleague or contacting the presenter.",
+            "Ensure there are no conflicts with other events in the calendar by checking 'view_today_events_in_calendar'"
+        ],
+        "available_tools_name": [
+            "search_email_by_content",
+            "view_today_events_in_calendar",
+            "add_alarm"
+        ],
+        "location": "Home"
+    },
+    {
+        "timestamp": "2024-09-06 21:00:00",
+        "query": "Do I have any calls or emails about outing walk or picnic scheduled for tomorrow?",
+        "keypoint for personal": [
+            "Search the calendar for events scheduled for the following day using 'view_events_in_calendar_by_providing_time_range'.",
+            "Search emails for any relevant updates, files, or preparation requirements for friends calls using 'search_email_by_content'."
+        ],
+        "keypoint for proactive": [
+            "If no preparation tasks are listed in the calendar, suggest adding them or directing add it using 'add_event_in_calendar' to ensure readiness. If client calls or client emails are found, check for attached files or relevant notes to prepare.",
+            "If there is no available time for the outing walk or picnic, remind the user."
+        ],
+        "available_tools_name": [
+            "view_events_in_calendar_by_providing_time_range",
+            "search_email_by_content",
+            "add_event_in_calendar"
+        ],
+        "location": "Home"
+    }
+]

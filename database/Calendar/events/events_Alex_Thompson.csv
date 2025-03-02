@@ -1,0 +1,21 @@
+id,title,description,start_time,end_time,reminder
+2024090123456,Email and Task Organization,"Check emails and organize the day's tasks using Airtable.",2024-09-01 08:30:00,2024-09-01 09:00:00,2024-09-01 08:00:00
+2024090145678,Freelance Project Work,"Focus on creating a brand identity for a sustainable fashion startup using Adobe XD.",2024-09-01 13:00:00,2024-09-01 15:00:00,2024-09-01 12:30:00
+2024090198765,Virtual Design Meetup,"Attend a virtual design meetup via Zoom to discuss the latest in graphic design tools.",2024-09-01 15:30:00,2024-09-01 16:30:00,2024-09-01 15:00:00
+2024090212346,Cycling in Central Park,"Enjoy a cycling session in Central Park with a curated ambient playlist.",2024-09-02 07:00:00,2024-09-02 08:00:00,2024-09-02 06:30:00
+2024090212348,Adobe XD Tutorial,"Learn new features in Adobe XD focusing on advanced prototyping techniques.",2024-09-02 10:30:00,2024-09-02 12:00:00,2024-09-02 10:00:00
+2024090212349,Visit to Artists & Fleas,"Explore handcrafted art at the local art market and gather inspiration.",2024-09-02 13:30:00,2024-09-02 15:00:00,2024-09-02 13:00:00
+2024090312345,Yoga Session,"Begin the day with a gentle yoga session at home, focusing on deep breathing and flexibility exercises.",2024-09-03 07:00:00,2024-09-03 07:30:00,None
+2024090316789,Photo Walk,"Participate in a photo walk around the hidden neighborhood of DUMBO, Brooklyn.",2024-09-03 08:00:00,2024-09-03 09:30:00,2024-09-03 07:30:00
+2024090323456,Client Project,"Focus on a client project, designing a mockup for a new app interface using Adobe XD.",2024-09-03 13:00:00,2024-09-03 15:00:00,2024-09-03 12:30:00
+2024090412346,Virtual Workshop,"Attend a virtual workshop on sustainable fashion design from the comfort of the home office.",2024-09-04 08:30:00,2024-09-04 10:00:00,2024-09-04 08:00:00
+2024090412349,Gallery Visit,"Visit a local gallery to explore new exhibitions and network with fellow artists.",2024-09-04 15:30:00,2024-09-04 17:00:00,2024-09-04 15:00:00
+2024090545678,Design Collaboration,"Collaborate with a fellow designer via Zoom on a sustainable fashion campaign.",2024-09-05 12:00:00,2024-09-05 13:00:00,2024-09-05 11:30:00
+2024090567890,Online Seminar,"Attend an online seminar on the future of graphic design.",2024-09-05 13:30:00,2024-09-05 15:00:00,2024-09-05 13:00:00
+2024090616789,Mountain Cycling,"Head out for a mountain cycling adventure at Bear Mountain State Park.",2024-09-06 08:00:00,2024-09-06 10:00:00,2024-09-06 07:30:00
+2024090667890,Networking Event,"Attend a networking event for creatives at a local art gallery.",2024-09-06 17:00:00,2024-09-06 19:00:00,2024-09-06 16:30:00
+2024090756789,Freelance Project,"Focus on creating a series of illustrations for a client using Adobe XD.",2024-09-07 13:00:00,2024-09-07 15:00:00,2024-09-07 12:30:00
+2024090812347,Design Critique Session,"Attend a design critique session with peers via Zoom.",2024-09-08 12:00:00,2024-09-08 13:00:00,2024-09-08 11:30:00
+2024090912345,Wake Up and Morning Run,"Start the day with a refreshing morning run along the East River waterfront.",2024-09-09 06:30:00,2024-09-09 07:00:00,None
+2024090912350,Design Project Work,"Focus on completing a major design project for a client using Adobe XD.",2024-09-09 13:00:00,2024-09-09 16:00:00,None
+2024090912352,Local Art Retreat,"Attend a workshop exploring new techniques and connect with other artists.",2024-09-09 18:00:00,2024-09-09 20:00:00,2024-09-09 17:30:00

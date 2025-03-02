@@ -1,0 +1,76 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "add_product_to_cart",
+            "description": "Adds a product to the cart.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "type": "string",
+                        "description": "The unique identifier of the product."
+                    },
+                    "product_name": {
+                        "type": "string",
+                        "description": "The name of the product."
+                    },
+                    "quantity": {
+                        "type": "integer",
+                        "description": "The number of units of the product to add to the cart."
+                    }
+                },
+                "required": [
+                    "product_id",
+                    "product_name",
+                    "quantity"
+                ]
+            },
+            "return": {
+                "type": "string",
+                "description": "A message confirming the addition."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_products_in_shopping_manager",
+            "description": "Searches for products in the browsing history.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": [
+                            "object",
+                            "string"
+                        ],
+                        "description": "The name of the product to search for or a list of product names to search for."
+                    }
+                },
+                "required": [
+                    "query"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing a status message and a list of matching products."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "view_cart_in_shopping_manager",
+            "description": "Views the current items in the cart.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "object",
+                "description": "A list containing items in the cart."
+            }
+        }
+    }
+]

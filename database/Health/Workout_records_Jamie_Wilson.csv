@@ -1,0 +1,11 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Yoga,2024-09-03 07:00:00,2024-09-03 07:30:00,30,95,110,100,Relaxation and flexibility improved,Focus on deep breathing techniques,,,,,12,85%,8,Flexibility,,,,
+Walking,2024-09-03 15:00:00,2024-09-03 15:30:00,30,110,125,150,Mental clarity and light cardio achieved,Incorporate brisk walking for increased cardio benefits,,,Local neighborhood walk,Speed Curve 1,Heart Rate Curve 1,,,,,2.5,5.0,0.0
+Yoga,2024-09-04 07:00:00,2024-09-04 07:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,12,85%,8,Flexibility,,,,
+Walking,2024-09-04 15:30:00,2024-09-04 16:00:00,30,110,125,150,Mental clarity and light cardio,Incorporate brisk walking for increased cardio benefits,,,Campus Loop,Speed Curve 3,Heart Rate Curve 2,,,,,2.5,5.0,0.0
+Yoga,2024-09-05 06:30:00,2024-09-05 07:00:00,30,95,110,100,Relaxation and flexibility improved,Focus on deep breathing techniques,,,,,12,85%,8,Flexibility,,,,
+Rock Climbing,2024-09-05 17:30:00,2024-09-05 18:30:00,60,130,160,400,Strength and endurance enhanced,Incorporate more dynamic routes for variety,,,,,,,,,,,,
+Yoga,2024-09-06 07:00:00,2024-09-06 07:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,12,85%,15,Flexibility,,,,
+Cycling,2024-09-06 08:00:00,2024-09-06 08:30:00,30,120,140,200,Cardio endurance improved,Incorporate interval sprints for speed,,,,,,Park Route,Speed Curve 1,,,5.0,10.0,50.0
+Yoga,2024-09-07 07:00:00,2024-09-07 07:30:00,30,95,110,100,Relaxation and flexibility improved,Focus on deep breathing techniques,,,,,12,85%,15,Flexibility,,,,
+Strength Training,2024-09-07 15:00:00,2024-09-07 16:00:00,60,130,160,350,Strength and endurance enhanced,Incorporate more compound exercises,,,,,,,,,,,,

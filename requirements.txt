@@ -1,0 +1,13 @@
+anthropic==0.49.0
+numpy==1.24.3
+openai==1.65.1
+pandas==2.2.3
+peft==0.13.2
+pyserini==0.22.1
+rank_bm25==0.2.2
+Requests==2.32.3
+sentence_transformers==2.2.2
+termcolor==2.5.0
+torch==2.3.1
+tqdm==4.66.4
+transformers==4.46.3

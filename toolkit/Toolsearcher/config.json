@@ -1,0 +1,54 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "search_tools",
+            "description": "Searches for relevant tools in various libraries based on the provided keywords.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "keywords": {
+                        "type": [
+                            "object",
+                            "string"
+                        ],
+                        "description": "The keywords to search for. Can be a single string or a list of strings."
+                    }
+                },
+                "required": [
+                    "keywords"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status of the operation, the input parameters, the list of matched tool names, and any exceptions that occurred."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_tool_doc",
+            "description": "Retrieves documentation for the specified tools.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "tools_name": {
+                        "type": [
+                            "object",
+                            "string"
+                        ],
+                        "description": "The name(s) of the tool(s) for which to retrieve documentation. Can be a single string or a list of strings."
+                    }
+                },
+                "required": [
+                    "tools_name"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status of the operation and a dictionary of tool documentation, where each key is a tool name and each value is the corresponding tool's API documentation."
+            }
+        }
+    }
+]

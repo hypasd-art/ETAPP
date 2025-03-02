@@ -1,0 +1,63 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_current_health_and_mood_status",
+            "description": "Retrieves the current health and mood status of the user.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status and the most recent health and mood record before the specified timestamp."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_user_recent_workout_records",
+            "description": "Retrieves the most recent workout record after the specified timestamp until now.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "time": {
+                        "type": "string",
+                        "description": "The timestamp after which to retrieve the workout record. The format should be '%Y-%m-%d %H:%M:%S', indicating the starting point of the time range for fetching records until now."
+                    }
+                },
+                "required": [
+                    "time"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status of the operation and the most recent workout record."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_recent_health_and_mood_summary",
+            "description": "Retrieves the most recent health and mood records after the specified timestamp until now.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "time": {
+                        "type": "string",
+                        "description": "The timestamp after which to retrieve the health and mood summary record. The format should be '%Y-%m-%d %H:%M:%S', indicating the starting point of the time range for fetching records until now."
+                    }
+                },
+                "required": [
+                    "time"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status of the operation and the most recent health and mood records."
+            }
+        }
+    }
+]

@@ -1,0 +1,21 @@
+id,title,description,start_time,end_time,reminder
+2024090112349,Team Meeting,"Discuss upcoming projects and address logistical challenges with the team.",2024-09-01 12:00:00,2024-09-01 13:00:00,2024-09-01 11:45:00
+2024090212345,Morning Meditation,"Start the day with a glass of water and a quick meditation session.",2024-09-02 06:00:00,2024-09-02 06:30:00,None
+2024090212351,Supplier Meeting,"Meet with a supplier to negotiate better terms and discuss future collaborations.",2024-09-02 13:30:00,2024-09-02 14:30:00,2024-09-02 13:15:00
+2024090301234,Morning Walk,"Go for a short walk near Lake Michigan to clear the mind.",2024-09-03 07:00:00,2024-09-03 07:30:00,None
+2024090305678,Email Check and Task Prioritization,"Check emails and prioritize tasks using Trello.",2024-09-03 07:30:00,2024-09-03 08:00:00,None
+2024090304567,Data Analysis,"Analyze logistics data to identify areas for improvement.",2024-09-03 13:00:00,2024-09-03 14:30:00,2024-09-03 12:45:00
+2024090306789,Webinar on Supply Chain Trends,"Attend a webinar on the latest trends in supply chain management.",2024-09-03 14:30:00,2024-09-03 15:00:00,2024-09-03 14:15:00
+2024090412345,Morning Meditation,"Start the day with a glass of water and a quick meditation session.",2024-09-04 06:30:00,2024-09-04 07:00:00,None
+2024090412350,Virtual Meeting,"Host a virtual meeting with the logistics team to discuss project timelines and set clear objectives for the week.",2024-09-04 13:00:00,2024-09-04 14:00:00,2024-09-04 12:45:00
+2024090412354,Barbecue Dinner,"Enjoy the barbecue dinner with family and friends, sharing stories and laughter.",2024-09-04 19:30:00,2024-09-04 21:00:00,None
+2024090512345,Golf Session,"Start the day with a refreshing golf session at the Jackson Park Golf Course.",2024-09-05 06:30:00,2024-09-05 07:30:00,2024-09-05 06:15:00
+2024090545678,Client Meeting,"Visit a client at their downtown office to discuss their logistics needs.",2024-09-05 13:30:00,2024-09-05 14:30:00,2024-09-05 13:15:00
+2024090612345,Brisk Morning Walk,"Start the day with a brisk walk around the neighborhood park.",2024-09-06 06:30:00,2024-09-06 07:00:00,None
+2024090712349,Logistics Review,"Review and update logistics processes at the office.",2024-09-07 13:00:00,2024-09-07 15:00:00,2024-09-07 12:45:00
+2024090712350,Networking Event,"Engage with logistics professionals at a local business center.",2024-09-07 15:30:00,2024-09-07 17:00:00,2024-09-07 15:15:00
+2024090812345,Morning Yoga,"Participate in a morning yoga session at home using a yoga app.",2024-09-08 07:00:00,2024-09-08 07:30:00,None
+2024090812351,Finance Meeting,"Discuss budget allocations for upcoming logistics projects with the finance team.",2024-09-08 13:00:00,2024-09-08 14:00:00,2024-09-08 12:45:00
+2024090912345,Morning Hike,"Enjoy a morning hike at the Morton Arboretum to clear your mind.",2024-09-09 07:00:00,2024-09-09 08:30:00,2024-09-09 06:45:00
+2024090916789,Review Performance Reports,"Review the logistics team's performance reports and prepare feedback notes.",2024-09-09 08:30:00,2024-09-09 09:00:00,None
+2024090945678,Workshop on Business Strategies,"Attend a workshop on business strategies at the Chicago Business Center.",2024-09-09 15:30:00,2024-09-09 17:00:00,2024-09-09 15:15:00

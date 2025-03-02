@@ -1,0 +1,104 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "find_accommodations",
+            "description": "Searches for accommodations in a specified city.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "The city in which to search for accommodations."
+                    }
+                },
+                "required": [
+                    "city"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the status and accommodations in the city."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "find_attractions",
+            "description": "Searches for attractions in a specified city.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "The city in which to search for attractions."
+                    }
+                },
+                "required": [
+                    "city"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the status and attractions in the city."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "find_restaurants",
+            "description": "Searches for restaurants in a specified city.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "The city in which to search for restaurants."
+                    }
+                },
+                "required": [
+                    "city"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the status and restaurants in the city."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "find_flight",
+            "description": "Searches for flights between two cities on a specified date.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "origin_city": {
+                        "type": "string",
+                        "description": "The origin city."
+                    },
+                    "destination_city": {
+                        "type": "string",
+                        "description": "The destination city."
+                    },
+                    "departure_date": {
+                        "type": "string",
+                        "description": "The date of departure."
+                    }
+                },
+                "required": [
+                    "origin_city",
+                    "destination_city",
+                    "departure_date"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the status and filght between the origin_city and the destination_city."
+            }
+        }
+    }
+]

@@ -1,0 +1,31 @@
+id,alarm_time,message
+2024090112399,2024-09-01 06:00:00,"Wake up and start your morning routine."
+2024090112400,2024-09-01 06:30:00,"Time for your morning jog."
+2024090112402,2024-09-01 20:45:00,"Begin your evening meditation session."
+
+2024090212352,2024-09-02 06:30:00,"Wake up and prepare for the day."
+2024090212356,2024-09-02 22:30:00,"Wind down with meditation and prepare for bed."
+
+2024090312399,2024-09-03 06:00:00,"Wake up and start the day with meditation."
+2024090312401,2024-09-03 22:00:00,"Prepare for bedtime to ensure a restful night's sleep."
+
+2024090412360,2024-09-04 06:30:00,"Wake up and prepare for the morning jog."
+2024090412362,2024-09-04 22:00:00,"Prepare for bed and ensure a restful night."
+
+2024090512361,2024-09-05 06:00:00,"Wake up and prepare for rowing session."
+2024090512362,2024-09-05 22:30:00,"Time for bed to ensure a restful night's sleep."
+
+2024090612355,2024-09-06 06:30:00,"Wake up and prepare for the morning jog."
+2024090612356,2024-09-06 08:00:00,"Attend Pilates class at the community center."
+2024090612357,2024-09-06 22:00:00,"Prepare for bed and set out clothes for the next day."
+
+2024090712362,2024-09-07 06:00:00,"Wake up and start the day with lemon water and journaling."
+2024090712363,2024-09-07 06:30:00,"Begin your morning jog around the neighborhood park."
+2024090712364,2024-09-07 22:00:00,"Prepare for bed to ensure a restful night's sleep."
+
+2024090811111,2024-09-08 06:30:00,"Wake up and prepare for kayaking."
+2024090833333,2024-09-08 22:30:00,"Prepare for bed to ensure a restful night's sleep."
+
+2024090912399,2024-09-09 06:00:00,"Wake up and start the day with lemon water and journaling."
+2024090912401,2024-09-09 16:15:00,"Finish coffee break and prepare for the community event."
+2024090912402,2024-09-09 22:00:00,"Prepare for bed and set the alarm for tomorrow."

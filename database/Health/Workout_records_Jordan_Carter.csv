@@ -1,0 +1,10 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Pilates,2024-09-03 06:30:00,2024-09-03 07:15:00,45,110,130,200,Core strength and flexibility improved,Incorporate more advanced poses for challenge,,,,,12,85%,15,Flexibility,,,,
+Yoga,2024-09-03 09:00:00,2024-09-03 09:30:00,30,100,115,120,Relaxation achieved,Focus on deep breathing techniques,,,,,10,90%,12,Mindfulness,,,,
+Yoga,2024-09-06 07:00:00,2024-09-06 07:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,12,85%,8,Flexibility,,,,
+Rollerblading,2024-09-06 09:00:00,2024-09-06 10:00:00,60,130,150,350,Cardiovascular endurance improved,Incorporate interval sprints for variety,,,Santa Monica Pier Route,Speed Curve 1,Heart Rate Curve 1,,,,,5.0,10.0,0.0
+Pilates,2024-09-07 07:00:00,2024-09-07 08:00:00,60,110,130,250,Core strength and flexibility improved,Incorporate more core exercises,,,,,,,12,Flexibility,,,,
+Yoga,2024-09-07 20:30:00,2024-09-07 21:00:00,30,95,115,100,Relaxation achieved,Focus on deep breathing techniques,,,,," ""Breathing Curve 1""",Relaxation Data 1,8,Mindfulness,,,,
+Yoga,2024-09-09 06:30:00,2024-09-09 07:00:00,30,95,110,100,Relaxation and flexibility improved,Focus on deep breathing techniques,,,,,12,85%,15,Flexibility,,,,
+Interval Training,2024-09-09 08:00:00,2024-09-09 09:30:00,90,150,180,600,Aerobic endurance and strength improved,Incorporate more sprints to boost speed,5:30,170.0,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Beach Walk,2024-09-09 17:00:00,2024-09-09 18:30:00,90,110,125,250,Relaxation and mindfulness achieved,Consider incorporating more evening walks for stress relief,,,,,10,90%,Mindfulness,,,,,

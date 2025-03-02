@@ -1,0 +1,45 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "play_music",
+            "description": "Plays a music track and records the playback operation.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "music_name": {
+                        "type": "string",
+                        "description": "The name of the music track to play, excluding the artist's name."
+                    },
+                    "volume_level": {
+                        "type": "integer",
+                        "description": "The volume level for playback (0-100), ranging from 0 (silent) to 100 (loudest)."
+                    }
+                },
+                "required": [
+                    "music_name",
+                    "volume_level"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "Status message indicating the result of the operation."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_music_list_in_favorites",
+            "description": "Returns the list of favorite tracks.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "object",
+                "description": "List of favorite tracks."
+            }
+        }
+    }
+]

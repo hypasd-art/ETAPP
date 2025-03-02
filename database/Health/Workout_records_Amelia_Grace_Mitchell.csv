@@ -1,0 +1,15 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Running,2024-09-01 06:30:00,2024-09-01 07:15:00,45,140,165,400,Aerobic endurance improved,Consider adding interval sprints to enhance speed,6:45,158.0,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Yoga,2024-09-01 09:00:00,2024-09-01 09:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques to enhance mindfulness,,,,,,Breathing Curve 1,Relaxation Data 1,12,Mindfulness,,,
+Cycling,2024-09-02 06:00:00,2024-09-02 07:00:00,60,130,155,450,Cardiovascular endurance improved,Incorporate interval sprints for speed improvement,,,GPS Track 1,Speed Curve 1,,,,,,15.0,15.0,100.0
+Yoga,2024-09-02 21:00:00,2024-09-02 21:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,12,Mindfulness,,,,
+Spinning,2024-09-03 06:30:00,2024-09-03 07:30:00,60,140,165,500,Cardiovascular endurance improved,Incorporate more interval training for variety,,,,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Photography Walk,2024-09-03 18:00:00,2024-09-03 19:00:00,60,95,110,200,Light exercise with relaxation benefits,Consider adding brisk walking intervals for increased activity,,,GPS Track 2,Speed Curve 2,,,,,,3.0,3.5,50.0
+Running,2024-09-04 06:00:00,2024-09-04 06:45:00,45,140,165,400,Aerobic endurance improved,Consider adding interval sprints to enhance speed,6:45,158.0,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Yoga,2024-09-04 07:45:00,2024-09-04 08:15:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques to enhance mindfulness,,,,,Breathing Curve 1,Relaxation Data 1,12,Mindfulness,,,,
+Rowing,2024-09-05 06:00:00,2024-09-05 07:00:00,60,130,160,400,Cardiovascular endurance improved,Focus on maintaining consistent stroke rate,,,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Yoga,2024-09-05 21:00:00,2024-09-05 21:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,12,Mindfulness,,,,
+Running,2024-09-07 06:30:00,2024-09-07 07:15:00,45,140,165,400,Aerobic endurance improved,Consider adding interval sprints to enhance speed,6:45,158.0,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,
+Yoga,2024-09-07 09:30:00,2024-09-07 10:00:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,12,Mindfulness,,,,
+Spinning,2024-09-09 06:30:00,2024-09-09 07:30:00,60,140,165,450,Cardiovascular endurance improved,Incorporate more interval training,,,,,,,,,,,,
+Cycling,2024-09-09 08:30:00,2024-09-09 09:00:00,30,130,150,200,Stamina maintained,Consider longer rides on weekends,,,Scenic Park Route,Speed Curve 1,,,,,,5.0,10.0,50.0

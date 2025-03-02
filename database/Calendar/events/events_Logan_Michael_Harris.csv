@@ -1,0 +1,17 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Wake Up and Morning Coffee,"Start the day with a strong cup of freshly brewed coffee and review the day's schedule on Trello.",2024-09-01 06:30:00,2024-09-01 07:00:00,None
+2024090112348,Explore Union Square Greenmarket,"Select fresh, seasonal produce and unique ingredients for upcoming private dinner events.",2024-09-01 08:00:00,2024-09-01 09:00:00,2024-09-01 07:30:00
+2024090112351,Restaurant Consulting Session,"Advise a client on menu development and kitchen efficiency, providing actionable insights.",2024-09-01 13:30:00,2024-09-01 15:00:00,2024-09-01 13:00:00
+2024090112353,Pop-up Dining Event Setup,"Set up and host a pop-up dining event featuring a fusion of street food flavors.",2024-09-01 17:30:00,2024-09-01 19:00:00,2024-09-01 17:00:00
+2024090212345,Morning Routine,"Wake up, shower, meditate, and prepare breakfast.",2024-09-02 07:00:00,2024-09-02 08:00:00,None
+2024090212348,Artisan Meeting,"Meet with a local artisan to discuss custom kitchenware collaboration.",2024-09-02 12:00:00,2024-09-02 13:00:00,2024-09-02 11:30:00
+2024090212352,Film Screening,"Attend a historical drama film screening with friends.",2024-09-02 18:00:00,2024-09-02 20:00:00,2024-09-02 17:30:00
+2024090312345,Morning Coffee and Inspiration,"Start the day with a freshly brewed cup of coffee and review culinary magazines.",2024-09-03 07:00:00,2024-09-03 07:30:00,None
+2024090312348,Menu Tasting Session,"Conduct a tasting session for a new menu concept at a local culinary studio.",2024-09-03 12:00:00,2024-09-03 13:00:00,2024-09-03 11:30:00
+2024090412347,Culinary Workshop,"Attend a workshop focusing on traditional cooking techniques and the use of spices and herbs.",2024-09-04 08:30:00,2024-09-04 11:00:00,2024-09-04 08:00:00
+2024090412352,Restaurant Consultation,"Provide insights on improving kitchen workflow and menu offerings.",2024-09-04 14:00:00,2024-09-04 16:00:00,2024-09-04 13:30:00
+2024090512347,Cooking Class,"Host a cooking class focusing on street food techniques.",2024-09-05 12:00:00,2024-09-05 13:00:00,2024-09-05 11:30:00
+2024090612351,Private Dinner Event,"Conduct a private dinner event at a client's residence, showcasing a curated menu.",2024-09-06 14:00:00,2024-09-06 16:00:00,2024-09-06 13:30:00
+2024090712345,Review Culinary News,"Start the day with a strong cup of espresso while reviewing the latest culinary news and trends online.",2024-09-07 07:00:00,2024-09-07 07:30:00,None
+2024090712349,Culinary Seminar,"Attend a culinary seminar on food science at a nearby culinary institute.",2024-09-07 11:00:00,2024-09-07 12:00:00,2024-09-07 10:30:00
+2024090912349,Tasting Session,"Host a tasting session for a new menu concept at a colleague's restaurant.",2024-09-09 12:00:00,2024-09-09 13:30:00,2024-09-09 11:30:00

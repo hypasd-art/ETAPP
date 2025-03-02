@@ -1,0 +1,19 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Yoga Session,"Start the day with a 30-minute yoga session focusing on deep breathing and gentle stretches.",2024-09-01 06:00:00,2024-09-01 06:30:00,None
+2024090112347,Review Patient Files,"Review patient files and prepare notes for the day's consultations at the hospital.",2024-09-01 07:00:00,2024-09-01 07:30:00,None
+2024090112350,Patient Consultations,"Conduct patient consultations and follow-up appointments at the cardiology clinic.",2024-09-01 13:00:00,2024-09-01 15:00:00,2024-09-01 12:45:00
+2024090212345,Morning Run,"Start the day with a refreshing morning run in the local park.",2024-09-02 06:00:00,2024-09-02 06:30:00,None
+2024090212346,Team Meeting,"Participate in a team meeting at the hospital to discuss patient care strategies.",2024-09-02 08:00:00,2024-09-02 09:00:00,2024-09-02 07:45:00
+2024090212348,Cardiac Procedure,"Perform a scheduled cardiac procedure in the hospital's operating room.",2024-09-02 13:00:00,2024-09-02 15:00:00,2024-09-02 12:45:00
+2024090312345,Yoga Session,"Start the day with a gentle yoga session in the living room.",2024-09-03 06:30:00,2024-09-03 07:00:00,None
+2024090312350,Health Fair Presentation,"Deliver the presentation on preventive cardiology.",2024-09-03 12:00:00,2024-09-03 13:00:00,2024-09-03 11:45:00
+2024090412345,Morning Meditation,"10-minute meditation session at home to set a calm and focused mindset.",2024-09-04 06:30:00,2024-09-04 06:40:00,None
+2024090412350,Research Meeting,"Discuss progress and next steps for a new cardiology study with colleagues.",2024-09-04 12:00:00,2024-09-04 13:00:00,2024-09-04 11:45:00
+2024090512345,Morning Cycling Session,"Early morning cycling along the Charles River to clear the mind and prepare for the day.",2024-09-05 06:00:00,2024-09-05 06:45:00,None
+2024090534567,Patient Rounds,"Conduct patient rounds focusing on post-operative care and recovery.",2024-09-05 13:00:00,2024-09-05 15:00:00,2024-09-05 12:45:00
+2024090612345,Meditation Session,"Begin the day with a calming meditation session in the living room.",2024-09-06 06:30:00,2024-09-06 07:00:00,None
+2024090712345,Yoga Session,"Start the day with a gentle yoga session focusing on deep breathing and stretching.",2024-09-07 06:00:00,2024-09-07 06:30:00,None
+2024090712347,Charity Marathon,"Participate in the charity marathon event to support a local health cause.",2024-09-07 08:00:00,2024-09-07 11:00:00,2024-09-07 07:45:00
+2024090812345,Early Morning Hike,"Enjoy a morning hike at Blue Hills Reservation for cardio and relaxation.",2024-09-08 06:00:00,2024-09-08 07:00:00,2024-09-08 05:45:00
+2024090812346,Review Patient Notes,"Prepare for the week's consultations by reviewing patient notes in the home office.",2024-09-08 08:00:00,2024-09-08 08:30:00,2024-09-08 07:45:00
+2024090912348,Cardiac Procedure,"Conduct a cardiac procedure and follow up with consultations.",2024-09-09 13:00:00,2024-09-09 15:00:00,2024-09-09 12:45:00

@@ -1,0 +1,19 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Morning Meditation,"Begin the day with a 20-minute meditation session using the Calm app.",2024-09-01 06:30:00,2024-09-01 07:00:00,2024-09-01 06:15:00
+2024090112346,Breakfast and Podcast,"Prepare and enjoy a nutritious breakfast while listening to a personal development podcast.",2024-09-01 07:00:00,2024-09-01 07:30:00,None
+2024090112348,Morning Shift,"Focus on patient care, administer medications, and update patient records.",2024-09-01 08:30:00,2024-09-01 12:00:00,None
+2024090112349,Healthcare Workshop,"Attend a workshop on the latest healthcare practices in the hospital conference room.",2024-09-01 12:00:00,2024-09-01 13:00:00,2024-09-01 11:45:00
+2024090112351,Afternoon Tasks,"Continue with patient rounds and assist in a training session for new nurses.",2024-09-01 13:30:00,2024-09-01 16:00:00,None
+2024090212345,Yoga Session,"45-minute yoga session at a nearby studio focusing on flexibility and mental clarity.",2024-09-02 06:30:00,2024-09-02 07:15:00,2024-09-02 06:15:00
+2024090212347,Personal Development Reading,"Read a chapter from Brené Brown's 'Daring Greatly' and reflect on insights.",2024-09-02 12:00:00,2024-09-02 13:00:00,None
+2024090212349,Afternoon Shift at Hospital,"Focus on patient rounds and updating medical records, providing empathetic care.",2024-09-02 14:00:00,2024-09-02 18:00:00,2024-09-02 13:45:00
+2024090312345,Morning Meditation,"Start the day with a 10-minute meditation session using the Calm app.",2024-09-03 06:30:00,2024-09-03 06:40:00,None
+2024090312346,Dance Class,"Attend a morning dance class at Dance Fit Studio.",2024-09-03 07:00:00,2024-09-03 08:00:00,2024-09-03 06:45:00
+2024090312349,Team Meeting,"Participate in a team meeting at the hospital to discuss patient care strategies.",2024-09-03 12:00:00,2024-09-03 13:00:00,2024-09-03 11:45:00
+2024090416789,Professional Development Seminar,"Attend a seminar on patient communication skills at the hospital's conference room.",2024-09-04 12:00:00,2024-09-04 13:00:00,2024-09-04 11:45:00
+2024090512345,Morning Walk,"Begin the day with a brisk walk in the Boston Public Garden.",2024-09-05 06:30:00,2024-09-05 07:00:00,None
+2024090556789,Patient Education,"Conduct one-on-one sessions with patients to discuss treatment plans.",2024-09-05 13:00:00,2024-09-05 15:00:00,None
+2024090712349,Healthcare Meeting,"Attend a meeting at the hospital to discuss upcoming healthcare initiatives.",2024-09-07 12:00:00,2024-09-07 13:00:00,2024-09-07 11:45:00
+2024090712346,Morning Swim,"Head to the local community pool for a morning swim, focusing on freestyle and backstroke.",2024-09-07 07:00:00,2024-09-07 08:00:00,2024-09-07 06:45:00
+2024090812345,Yoga Session,"Begin the day with a calming yoga session at home.",2024-09-08 06:30:00,2024-09-08 07:00:00,2024-09-08 06:15:00
+2024090916789,Team-Building Workshop,"Participate in a team-building workshop at the hospital to enhance communication and collaboration.",2024-09-09 12:00:00,2024-09-09 13:00:00,2024-09-09 11:45:00

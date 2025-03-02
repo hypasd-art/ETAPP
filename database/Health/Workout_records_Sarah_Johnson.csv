@@ -1,0 +1,7 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Cycling,2024-09-01 08:00:00,2024-09-01 08:30:00,30,130,150,200,Cardiovascular endurance maintained,Consider interval sprints for increased stamina,,,City Park Route,Speed Curve 1,,,,,,5.0,10.0,50.0
+Yoga,2024-09-01 21:00:00,2024-09-01 21:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,12.0,Mindfulness,,,,
+Dance,2024-09-03 07:00:00,2024-09-03 08:00:00,60,130,160,350,Cardio endurance improved,Incorporate more varied dance styles,,,,,,,,,,,,
+Cycling,2024-09-03 09:00:00,2024-09-03 09:30:00,30,120,145,200,Stamina improved,Consider interval training for speed improvement,,,Scenic Park Route,Speed Curve 1,,,,,,5.0,10.0,50.0
+Yoga,2024-09-03 20:30:00,2024-09-03 21:00:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,12.0,Mindfulness,,,,
+Swimming,2024-09-07 07:00:00,2024-09-07 08:00:00,60,130,150,400,Cardiovascular endurance improved,Incorporate interval training for better stamina,,,GPS Track 1,Speed Curve 1,Heart Rate Curve 1,,,,,,,

@@ -1,0 +1,6 @@
+Activity Type,Start Time,End Time,Duration,Average Heart Rate,Maximum Heart Rate,Calories Burned,Exercise Effect Analysis,System Suggestion,Average Pace,Cadence,Route,Speed Curve,Heart Rate Curve,Breathing Rate,Relaxation State,Pose Count,Focus Area,Distance,Average Speed,Elevation Gain
+Tai Chi,2024-09-04 06:30:00,2024-09-04 07:00:00,30,85,100,100,Relaxation and balance achieved,Focus on deep breathing techniques,,,,,12,80%,,Mindfulness,,,,
+Cycling,2024-09-04 08:00:00,2024-09-04 08:30:00,30,130,150,250,Stamina and mental clarity improved,Incorporate interval training for endurance,,,Burke-Gilman Trail,Speed Curve 1,,,,,,10.0,20.0,50.0
+Yoga,2024-09-04 21:00:00,2024-09-04 21:30:00,30,95,110,120,Relaxation and flexibility improved,Focus on maintaining posture alignment,,,,,10,85%,12.0,Flexibility,,,,
+Cycling,2024-09-09 07:00:00,2024-09-09 08:00:00,60,130,150,400,Stamina improved,Incorporate interval training for speed,,,GPS Track 1,Speed Curve 1,,,,,,15.0,15.0,100.0
+Yoga,2024-09-09 09:00:00,2024-09-09 09:30:00,30,95,110,100,Relaxation achieved,Focus on deep breathing techniques,,,,,Breathing Curve 1,Relaxation Data 1,12.0,Mindfulness,,,,

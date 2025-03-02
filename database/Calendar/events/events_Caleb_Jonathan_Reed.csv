@@ -1,0 +1,16 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Morning Walk,"Go for a refreshing morning walk around the neighborhood.",2024-09-01 07:00:00,2024-09-01 07:45:00,None
+2024090123456,Heart-Healthy Cooking Workshop,"Attend a cooking workshop at the community center focusing on heart-healthy recipes.",2024-09-01 12:00:00,2024-09-01 13:30:00,2024-09-01 11:00:00
+2024090145678,Dinner at Mediterraneo,"Enjoy vegan tapas with friends at Mediterraneo, discussing travel plans and creative projects.",2024-09-01 18:00:00,2024-09-01 19:30:00,2024-09-01 17:45:00
+2024090212345,Yoga Session,"Start the day with a 30-minute yoga session at home.",2024-09-02 06:00:00,2024-09-02 06:30:00,None
+2024090212348,Photoshoot Collaboration,"Collaborate with a local sustainable fashion brand for a photoshoot.",2024-09-02 13:30:00,2024-09-02 15:30:00,2024-09-02 13:15:00
+2024090312345,Pilates Class,"Attend a 45-minute Pilates class focusing on core strength and flexibility.",2024-09-03 06:30:00,2024-09-03 07:15:00,2024-09-03 06:15:00
+2024090345678,Book Club Meeting,"Attend a book club meeting at the community center to discuss the latest historical fiction read.",2024-09-03 12:00:00,2024-09-03 13:00:00,2024-09-03 11:00:00
+2024090416789,Yoga Session,"Cool down with a short yoga session, emphasizing deep breathing and mindfulness.",2024-09-04 07:00:00,2024-09-04 07:30:00,None
+2024090456789,Skateboarding Session,"Skateboarding session at Venice Beach with friends.",2024-09-04 16:00:00,2024-09-04 17:30:00,None
+2024090512345,Yoga Session,"Start the day with a yoga session in Griffith Park, focusing on flexibility and mindfulness.",2024-09-05 06:30:00,2024-09-05 07:15:00,None
+2024090534567,Pop-up Fashion Event,"Attend a pop-up fashion event at The Grove, network with designers and fellow influencers.",2024-09-05 12:00:00,2024-09-05 13:30:00,2024-09-05 11:45:00
+2024090612348,Virtual Seminar on Digital Marketing,"Attend a virtual seminar on digital marketing strategies.",2024-09-06 14:00:00,2024-09-06 15:30:00,2024-09-06 13:45:00
+2024090716789,Morning Pilates Class,"Attend an early morning Pilates class at a local studio in West Hollywood.",2024-09-07 07:00:00,2024-09-07 08:00:00,2024-09-07 06:45:00
+2024090812353,Dinner with Family,"Meet family at a favorite vegan restaurant in downtown LA for a delicious meal.",2024-09-08 18:00:00,2024-09-08 19:30:00,2024-09-08 17:45:00
+2024090912349,Webinar on Personal Branding,"Attend a webinar on personal branding and growth strategies.",2024-09-09 14:30:00,2024-09-09 16:00:00,2024-09-09 14:15:00

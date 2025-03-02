@@ -1,0 +1,67 @@
+id,title,description,start_time,end_time,reminder
+2024090112348,Work Safety Briefing,"Attend a safety briefing and review the day's tasks with the team.",2024-09-01 08:00:00,2024-09-01 08:30:00,2024-09-01 07:30:00
+2024090112350,Afternoon Work,"Continue working on framing and drywall installation for a residential project.",2024-09-01 12:30:00,2024-09-01 15:00:00,None
+2024090112351,Short Break,"Take a short break to stretch and hydrate, checking messages and updates.",2024-09-01 15:00:00,2024-09-01 15:15:00,None
+2024090112354,Dinner Preparation,"Prepare a simple dinner at home, grilling chicken and vegetables.",2024-09-01 17:30:00,2024-09-01 18:30:00,None
+2024090112355,Local Sports League Game,"Attend a local sports league game with friends, cheering on the neighborhood team.",2024-09-01 19:00:00,2024-09-01 20:30:00,2024-09-01 18:30:00
+
+
+
+
+2024090212346,Morning Jog,"Enjoy a jog around the local park to clear the mind and prepare for the day.",2024-09-02 06:30:00,2024-09-02 07:00:00,None
+2024090212347,Review Construction Plans,"Cool down with stretching exercises and review the day's construction plans.",2024-09-02 07:00:00,2024-09-02 07:30:00,None
+2024090212350,Roofing Work,"Focus on roofing work, ensuring safety measures and collaborating with the team.",2024-09-02 12:30:00,2024-09-02 15:00:00,None
+2024090212351,Team Check-In,"Quick break to hydrate and discuss updates or adjustments with the team.",2024-09-02 15:00:00,2024-09-02 15:30:00,None
+2024090212352,Continue Roofing Tasks,"Wrap up the day's work by ensuring the site is clean and organized.",2024-09-02 15:30:00,2024-09-02 17:00:00,None
+2024090212353,DIY Workshop,"Attend a DIY workshop at the community center to learn new home improvement techniques.",2024-09-02 17:30:00,2024-09-02 19:00:00,2024-09-02 17:00:00
+
+
+
+
+2024090334567,Team Meeting,"Discuss project timelines, review safety protocols, and assign tasks for the day.",2024-09-03 08:00:00,2024-09-03 08:30:00,2024-09-03 07:30:00
+2024090356789,Plumbing Installations,"Focus on plumbing installations, ensuring efficiency and quality.",2024-09-03 13:00:00,2024-09-03 15:30:00,None
+2024090378901,Visit Hardware Store,"Pick up supplies for a weekend DIY project.",2024-09-03 17:30:00,2024-09-03 18:00:00,None
+
+
+
+2024090412345,Morning Fishing Trip,"Early morning fishing at Lake Michigan to enjoy the peacefulness and catch some fish.",2024-09-04 06:00:00,2024-09-04 08:00:00,2024-09-04 05:30:00
+2024090423456,Work at Construction Site,"Focus on electrical installations and collaborate with the team to troubleshoot issues.",2024-09-04 10:00:00,2024-09-04 12:30:00,2024-09-04 09:30:00
+2024090445678,Continue Electrical Work,"Double-check connections and ensure everything is up to code.",2024-09-04 13:00:00,2024-09-04 15:30:00,None
+
+
+
+
+2024090534567,Construction Site Briefing,"Participate in a safety briefing and review the day's tasks.",2024-09-05 08:00:00,2024-09-05 08:30:00,2024-09-05 07:30:00
+2024090556789,Afternoon Work Session,"Focus on detail-oriented tasks like trim work and painting.",2024-09-05 12:30:00,2024-09-05 15:30:00,None
+2024090578901,Evening with Friends,"Catch up with friends at a local bar over drinks and snacks.",2024-09-05 17:00:00,2024-09-05 18:00:00,None
+
+
+
+
+
+2024090612350,Carpentry Tasks,"Focus on crafting custom pieces for a client and collaborate with team members.",2024-09-06 13:00:00,2024-09-06 16:00:00,None
+2024090612352,Visit Hardware Store,"Pick up supplies for a personal DIY project.",2024-09-06 17:30:00,2024-09-06 18:00:00,None
+2024090612353,Attend Car Show,"Admire classic and modern vehicles at a nearby exhibition center.",2024-09-06 18:00:00,2024-09-06 19:00:00,None
+
+
+
+
+
+2024090712349,Site Cleanup,"Focus on site cleanup and organization with team members.",2024-09-07 12:30:00,2024-09-07 15:00:00,None
+2024090712352,Family Game Night,"Gather around the table to play board games with the family.",2024-09-07 18:00:00,2024-09-07 19:00:00,None
+
+
+
+
+2024090816789,Hearty Breakfast,"Have scrambled eggs, toast, and black coffee while catching up on local news.",2024-09-08 07:00:00,2024-09-08 07:30:00,None
+2024090812347,Team Meeting,"Participate in a team meeting to discuss the day's tasks and safety protocols.",2024-09-08 08:30:00,2024-09-08 09:00:00,2024-09-08 08:00:00
+2024090812351,Local Sports Event,"Attend a local sports event at the community center.",2024-09-08 18:00:00,2024-09-08 19:00:00,2024-09-08 17:30:00
+
+
+
+
+2024090912348,Organize Team at Site,"Review project deadlines and organize the team for landscaping tasks.",2024-09-09 08:30:00,2024-09-09 09:00:00,2024-09-09 08:00:00
+2024090912350,Landscaping Tasks,"Focus on planting and arranging decorative elements.",2024-09-09 12:30:00,2024-09-09 15:00:00,None
+2024090912353,Dinner at Mama's Italian Kitchen,"Enjoy spaghetti and meatballs with family.",2024-09-09 18:30:00,2024-09-09 19:30:00,None
+
+

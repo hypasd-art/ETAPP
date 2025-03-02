@@ -1,0 +1,28 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Early Morning Run,"Run along Lake Michigan to energize for the day.",2024-09-01 06:00:00,2024-09-01 06:45:00,2024-09-01 05:45:00
+2024090112346,Virtual Sales Training,"Enhance negotiation skills via Zoom.",2024-09-01 08:30:00,2024-09-01 09:00:00,2024-09-01 08:15:00
+2024090112347,Lunch Meeting with Client,"Discuss partnership opportunities over lunch at a fusion restaurant.",2024-09-01 12:00:00,2024-09-01 13:30:00,2024-09-01 11:45:00
+2024090112349,Public Speaking Club,"Practice presentation skills and network at a local community center.",2024-09-01 18:00:00,2024-09-01 19:30:00,2024-09-01 17:45:00
+2024090212345,Morning Meditation,"Start the day with a refreshing shower and a quick meditation session.",2024-09-02 06:00:00,2024-09-02 06:30:00,None
+2024090212347,Group Fitness Class,"Participate in a high-intensity interval training class at the local gym.",2024-09-02 07:00:00,2024-09-02 08:00:00,2024-09-02 06:45:00
+2024090212349,Sales Pitch Presentation,"Conduct a sales pitch presentation for a new product line to a prospective client.",2024-09-02 12:00:00,2024-09-02 13:00:00,2024-09-02 11:45:00
+2024090212352,Family Dinner,"Enjoy a family dinner at a new Mediterranean restaurant.",2024-09-02 18:00:00,2024-09-02 19:30:00,2024-09-02 17:45:00
+2024090312347,Tennis Match,"Early morning tennis match with a colleague at the local tennis club.",2024-09-03 07:00:00,2024-09-03 08:00:00,2024-09-03 06:45:00
+2024090312350,Business Development Workshop,"Attend a workshop at a downtown conference center to learn about market trends.",2024-09-03 12:00:00,2024-09-03 13:00:00,2024-09-03 11:45:00
+2024090312354,Comedy Show,"Enjoy a comedy show at a local theater with friends.",2024-09-03 17:30:00,2024-09-03 18:30:00,2024-09-03 17:15:00
+2024090412346,Charity Marathon,"Participate in the charity marathon at Grant Park, enjoy the scenic route and network with fellow runners.",2024-09-04 06:30:00,2024-09-04 09:00:00,2024-09-04 06:15:00
+2024090412348,Sales Performance Review,"Review sales performance metrics and adjust strategies to meet quarterly targets.",2024-09-04 10:00:00,2024-09-04 11:00:00,2024-09-04 09:45:00
+2024090412353,Wine Tasting Event,"Attend a wine tasting event at a nearby vineyard and socialize with peers.",2024-09-04 17:00:00,2024-09-04 18:00:00,2024-09-04 16:45:00
+2024090512345,Morning Meditation,"Start the day with a refreshing shower followed by a quick meditation session.",2024-09-05 06:00:00,2024-09-05 06:30:00,None
+2024090523456,Group Volleyball Game,"Head to the local gym for a group volleyball game with friends.",2024-09-05 07:00:00,2024-09-05 08:00:00,None
+2024090556789,Product Development Meeting,"Meet with the product development team to discuss customer feedback and brainstorm improvements.",2024-09-05 13:30:00,2024-09-05 14:30:00,2024-09-05 13:15:00
+2024090590123,Family Movie Night,"Watch 'The Pursuit of Happyness' with family, enjoying popcorn and cola.",2024-09-05 18:00:00,2024-09-05 19:30:00,None
+2024090612345,Early Morning Run,"Run along the Chicago Riverwalk to energize for the day.",2024-09-06 06:00:00,2024-09-06 06:45:00,None
+2024090612346,Virtual Seminar,"Attend a seminar on cultural business practices in Southeast Asia via Zoom.",2024-09-06 08:00:00,2024-09-06 09:00:00,2024-09-06 07:45:00
+2024090612347,Client Lunch Meeting,"Meet at The Purple Pig to discuss future projects over a Mediterranean meal.",2024-09-06 12:00:00,2024-09-06 13:30:00,2024-09-06 11:45:00
+2024090712346,Group Cycling Class,"Participate in a group cycling class at the local gym.",2024-09-07 07:00:00,2024-09-07 08:00:00,2024-09-07 06:45:00
+2024090712348,Networking Event,"Attend a networking event at a downtown conference center.",2024-09-07 14:30:00,2024-09-07 16:00:00,2024-09-07 14:15:00
+2024090812346,Morning Yoga Session,"Focus on flexibility and mindfulness with a guided session.",2024-09-08 06:30:00,2024-09-08 07:15:00,2024-09-08 06:15:00
+2024090812350,Lunch-and-Learn Session,"Share insights on communication skills with colleagues.",2024-09-08 12:00:00,2024-09-08 13:00:00,2024-09-08 11:45:00
+2024090912345,Early Morning Run,"Run along the Lakefront Trail in Chicago.",2024-09-09 06:00:00,2024-09-09 06:45:00,None
+2024090912348,Lunch Meeting,"Lunch meeting with a potential business partner at a trendy fusion restaurant downtown.",2024-09-09 12:00:00,2024-09-09 13:00:00,2024-09-09 11:45:00

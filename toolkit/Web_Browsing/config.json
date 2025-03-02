@@ -1,0 +1,67 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "search_news_by_category",
+            "description": "Finds the news by category.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "category": {
+                        "type": "string",
+                        "description": "The category to search for news. should shoose from [entertainment, world, business, sport, health, science, technology]"
+                    }
+                },
+                "required": [
+                    "category"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the search status and the search result"
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_heat_news",
+            "description": "Fetches the latest hot news articles.",
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary contains the search status and search result."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_from_wikipedia",
+            "description": "Searches Wikipedia for content based on a given query and returns the top k results.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search term to look for on Wikipedia."
+                    },
+                    "topk": {
+                        "type": "integer",
+                        "description": "The number of top results to return. Defaults to 5."
+                    }
+                },
+                "required": [
+                    "query"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the search status and the processed search results. The 'data' field contains a list of processed paragraphs, each in the format \"title\ntruncated content\"."
+            }
+        }
+    }
+]

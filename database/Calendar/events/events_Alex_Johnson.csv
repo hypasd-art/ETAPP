@@ -1,0 +1,19 @@
+id,title,description,start_time,end_time,reminder
+2024090112345,Solo Jog,"Start the day with a solo jog through Golden Gate Park.",2024-09-01 06:30:00,2024-09-01 07:15:00,None
+2024090112349,Software Development,"Focus on developing a new feature for the company's software product.",2024-09-01 13:00:00,2024-09-01 15:00:00,2024-09-01 12:45:00
+2024090112350,Design Team Meeting,"Discuss UI improvements with the design team using Figma.",2024-09-01 15:00:00,2024-09-01 16:00:00,2024-09-01 14:45:00
+2024090212345,Meditation Session,"30-minute meditation session at home focusing on mindfulness.",2024-09-02 06:30:00,2024-09-02 07:00:00,None
+2024090212347,Pottery Class,"Attend a pottery-making class at a local art center.",2024-09-02 08:30:00,2024-09-02 10:00:00,2024-09-02 08:15:00
+2024090212349,Code Review Session,"Conduct a code review session with junior developers remotely.",2024-09-02 13:00:00,2024-09-02 14:30:00,2024-09-02 12:45:00
+2024090312345,Morning Yoga Session,"Engage in a morning yoga session at home, focusing on flexibility and mindfulness.",2024-09-03 07:00:00,2024-09-03 07:45:00,None
+2024090334567,Software Debugging,"Focus on debugging and testing software at the office.",2024-09-03 13:00:00,2024-09-03 15:00:00,2024-09-03 12:45:00
+2024090345678,Sustainable Living Webinar,"Attend a webinar on sustainable living practices.",2024-09-03 15:15:00,2024-09-03 16:30:00,2024-09-03 15:00:00
+2024090412345,Cycling Tour,"Start the day with a cycling tour through Golden Gate Park.",2024-09-04 06:30:00,2024-09-04 07:00:00,2024-09-04 06:15:00
+2024090412349,Brainstorming Session,"Collaborate with the product team using Figma for upcoming software features.",2024-09-04 13:00:00,2024-09-04 15:00:00,2024-09-04 12:45:00
+2024090512345,Mountain Climbing Session,"Participate in a mountain climbing session at Mount Tamalpais.",2024-09-05 06:00:00,2024-09-05 07:30:00,2024-09-05 05:45:00
+2024090534567,Tech Conference Presentation,"Work on a presentation for an upcoming tech conference using Figma.",2024-09-05 13:00:00,2024-09-05 15:00:00,2024-09-05 12:45:00
+2024090612348,Advanced Coding Workshop,"Attend a workshop on advanced coding techniques at a local tech hub.",2024-09-06 09:00:00,2024-09-06 12:00:00,2024-09-06 08:45:00
+2024090712345,Pilates Session,"Start the day with a Pilates session at a nearby studio, focusing on core strength.",2024-09-07 06:30:00,2024-09-07 07:15:00,2024-09-07 06:15:00
+2024090734567,Lunch with Colleague,"Lunch break at a nearby vegan restaurant with a colleague.",2024-09-07 12:00:00,2024-09-07 13:00:00,2024-09-07 11:45:00
+2024090912345,Meditation Session,"Begin the day with a meditation session focusing on breathing exercises.",2024-09-09 06:30:00,2024-09-09 07:00:00,None
+2024090912347,Walking Tour of Mission District,"Capture photographs of murals and architecture, and enjoy a plant-based lunch.",2024-09-09 12:00:00,2024-09-09 13:30:00,2024-09-09 11:45:00

@@ -1,0 +1,180 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "control_curtains_in_home",
+            "description": "Controls the opening and closing of the curtains in home.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "open": {
+                        "type": "string",
+                        "description": "True to open the curtains, False to close."
+                    }
+                },
+                "required": [
+                    "open"
+                ]
+            },
+            "return": {
+                "type": "string",
+                "description": "Status message."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "control_bathtub_in_home",
+            "description": "Controls the filling and temperature of the bathtub in home.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "fill": {
+                        "type": "string",
+                        "description": "True to fill the bathtub, False to drain."
+                    },
+                    "water_level": {
+                        "type": "number",
+                        "nullable": true,
+                        "description": "Desired water height level of the bathtub."
+                    },
+                    "temperature": {
+                        "type": "number",
+                        "nullable": true,
+                        "description": "Desired water temperature in Celsius."
+                    },
+                    "keep_temperature": {
+                        "type": "string",
+                        "description": "If True, keeps the water at the desired temperature."
+                    }
+                },
+                "required": [
+                    "fill"
+                ]
+            },
+            "return": {
+                "type": "string",
+                "description": "Status message."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "boil_water_in_home",
+            "description": "Boiling water in the kettle in home.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "temperature": {
+                        "type": "number",
+                        "description": "Desired water temperature in Celsius(<100)."
+                    },
+                    "keep_temperature": {
+                        "type": "string",
+                        "description": "If True, keeps the water at the desired temperature."
+                    }
+                },
+                "required": [
+                    "temperature"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "Status message."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "control_light_in_home",
+            "description": "Controls the light in the home by turning it on or off with specified settings.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "action": {
+                        "type": "string",
+                        "description": "The action to perform ('on' or 'off')."
+                    },
+                    "location": {
+                        "type": "string",
+                        "description": "The location of the light in the home ('residence', 'kitchen', 'dining room', 'living room', 'bedroom', 'bathroom')."
+                    },
+                    "brightness": {
+                        "type": "integer",
+                        "description": "Brightness level (1-3). Required if action is 'on'."
+                    },
+                    "color": {
+                        "type": "string",
+                        "description": "Color of the light ('yellow' or 'white'). Required if action is 'on'."
+                    }
+                },
+                "required": [
+                    "action",
+                    "location"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A dictionary containing the status and a message about the light's state."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "set_temperature_and_humidity_in_home",
+            "description": "Sets the current temperature and humidity of the thermostat.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "temperature": {
+                        "type": [
+                            "number",
+                            "string"
+                        ],
+                        "nullable": true,
+                        "description": "Desired temperature in Celsius."
+                    },
+                    "humidity": {
+                        "type": [
+                            "number",
+                            "string"
+                        ],
+                        "nullable": true,
+                        "description": "Desired humidity in percentage."
+                    }
+                }
+            },
+            "return": {
+                "type": "object",
+                "description": "Status message indicating the temperature and humidity have been set."
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_home_temperature_and_humidity",
+            "description": "Get and monitor the current temperature and humidity levels.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "at_time": {
+                        "type": "string",
+                        "description": "The specific time for which to retrieve the temperature."
+                    }
+                },
+                "required": [
+                    "at_time"
+                ]
+            },
+            "return": {
+                "type": "object",
+                "description": "A string with the current temperature and humidity."
+            }
+        }
+    }
+]
