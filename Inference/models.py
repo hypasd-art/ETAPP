@@ -222,6 +222,8 @@ def llama_format_prompt(messages, function, timestamp=""):
             for func in function:
                 formatted_prompt += json.dumps(func, indent=4) + "\n\n"
             formatted_prompt += f"{message['content'].strip()}<|eot_id|>"
+        elif message["role"] == "user" and not is_first_user_message:
+            formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{message['content'].strip()}<|eot_id|>"
 
         elif message["role"] == "tool":
             formatted_prompt += "<|start_header_id|>ipython<|end_header_id|>\n\n"
@@ -232,7 +234,14 @@ def llama_format_prompt(messages, function, timestamp=""):
             formatted_prompt += "<|eot_id|>"
 
         else:
-            formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{message['content'].strip()}<|eot_id|>"
+            if message["tool_calls"] != [] and message["tool_calls"] is not None:
+                assert message["content"].strip() == ""
+                message_tool_call = []
+                for m in message["tool_calls"]:
+                    message_tool_call.append({'name': m['function']['name'], 'parameters': m['function']['arguments']})
+                formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{str(message_tool_call)}<|eot_id|>"
+            else:
+                formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{message['content'].strip()}<|eot_id|>"
 
     formatted_prompt += "<|start_header_id|>assistant<|end_header_id|>\n\n"
 
@@ -264,6 +273,8 @@ Here is a list of functions in JSON format that you can invoke.\n{functions}\n
             formatted_prompt += "<|start_header_id|>user<|end_header_id|>\n\n"
             
             formatted_prompt += f"{message['content'].strip()}<|eot_id|>"
+        elif message["role"] == "user" and not is_first_user_message:
+            formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{message['content'].strip()}<|eot_id|>"
 
         elif message["role"] == "tool":
             formatted_prompt += "<|start_header_id|>ipython<|end_header_id|>\n\n"
@@ -274,7 +285,17 @@ Here is a list of functions in JSON format that you can invoke.\n{functions}\n
             formatted_prompt += "<|eot_id|>"
 
         else:
-            formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{message['content'].strip()}<|eot_id|>"
+            if message["tool_calls"] != [] and message["tool_calls"] is not None:
+                assert message["content"].strip() == ""
+                message_tool_call = []
+                for m in message["tool_calls"]:
+                    name = m['function']['name']
+                    parameters = ast.literal_eval(m['function']['arguments'])  
+                    param_str = ", ".join(f"{key}={repr(value)}" for key, value in parameters.items())  
+                    message_tool_call.append(f"{name}({param_str})")
+                formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{str(message_tool_call)}<|eot_id|>"
+            else:
+                formatted_prompt += f"<|start_header_id|>{message['role']}<|end_header_id|>\n\n{message['content'].strip()}<|eot_id|>"
 
     formatted_prompt += "<|start_header_id|>assistant<|end_header_id|>\n\n"
 
