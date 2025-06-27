@@ -8,13 +8,10 @@ import numpy as np
 class Navigation_And_Map:
     def __init__(self, 
                  name: str,
-                 city_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/background/citySet_with_states.txt",
                  accommodation_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/accommodations/clean_accommodations_2022_revise.csv",
                  attraction_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/attractions/attractions.csv",
                  restaurant_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/restaurants/clean_restaurant_2022_revise.csv",
-                 distance_path=os.path.dirname(os.path.abspath(__file__)) + '/../../database/Navigation/googleDistanceMatrix/distance.csv',
-                 flight_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/flights/clean_Flights_revise.csv",
-                 building_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/city_building_information.pkl"):
+                 flight_path=os.path.dirname(os.path.abspath(__file__)) + "/../../database/Navigation/flights/clean_Flights_revise.csv"):
         """
         Initializes the TravelAssistant with paths to various data files.
         
@@ -27,13 +24,11 @@ class Navigation_And_Map:
             flight_path: Path to the flights data file.
         """
         self.name = name
-        with open(building_path, 'rb') as file:
-            self.cities_building_layout = pickle.load(file)
-        self.cities = self.load_cities(city_path)
+        
         self.accommodations = self.load_accommodations(accommodation_path)
         self.attractions = self.load_attractions(attraction_path)
         self.restaurants = self.load_restaurants(restaurant_path)
-        self.distance_matrix = self.load_distance_matrix(distance_path)
+        # self.distance_matrix = self.load_distance_matrix(distance_path)
         self.flights = self.load_flights(flight_path)
 
     def load_cities(self, path: str) -> Dict[str, list]:
